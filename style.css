@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-section{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+    background-image: url('https://cdn.pixabay.com/photo/2024/03/19/15/37/call-center-8643477_1280.jpg');
+     
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    
+
+}
+.container{
+    margin-right: 600px;
+}
+.heading-main {
+    font-family: "Montserrat", sans-serif;
+  display: block;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.heading-sub {
+    font-family: "Montserrat", sans-serif;
+  display: block;
+  font-size: 58px;
+  color: #f0f0f0;
+  margin-top: 10px;
+}
+.hero-section p{
+    margin-top: 7px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size:13px;
+    line-height: 1.5;
+    margin-left: 40px;
+}
+.btn{
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: 2px solid white;
+    background-color:transparent;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn:hover{
+    cursor: pointer;
+    color:white;
+    background-color:#2A4759;
+}
+
+
+
+
+    
