@@ -1,8 +1,12 @@
+
+/* mmmmmmmm */
 *{
-    margin: 0;
+     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
 .hero-section{
     display: grid;
     align-items: center;
@@ -59,7 +63,6 @@
     color:white;
     background-color:#2A4759;
 }
-
 
 
 
