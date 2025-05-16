@@ -1,0 +1,14 @@
+@media (max-width: 750px) {
+    .loader {
+        top: 0%;
+    }
+    .loader h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .loader h1 {
+        font-size: 3rem;
+    }
+}
