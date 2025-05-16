@@ -9,7 +9,7 @@ let iconXmark = document.querySelector("#cross-icon");
 let iconMenu = document.querySelector("#menu-icon");
 
 iconXmark.addEventListener("click", function () {
-  navBar.style.transform = "translateY(-100%)";
+  navBar.style.top = "-100%";
 });
 
 
