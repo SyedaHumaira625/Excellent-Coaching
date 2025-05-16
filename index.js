@@ -11,5 +11,3 @@ let iconMenu = document.querySelector("#menu-icon");
 iconXmark.addEventListener("click", function () {
   navBar.style.top = "-100%";
 });
-
-
