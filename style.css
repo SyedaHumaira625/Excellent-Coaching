@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 html,
@@ -11,8 +13,19 @@ body {
   width: 100%;
 }
 
+:root {
+  --heading-font--: "Montserrat", sans-serif;
+  --text-font--: "Outfit", sans-serif;
+  --primary-color--: #000080;
+  --secondary-color--: #716c6c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .loader {
-  background-color: rgb(48, 45, 45);
+  background-color: var(--primary-color--);
   color: white;
   height: 100vh;
   display: flex;
@@ -62,10 +75,10 @@ body {
 
 /* Header start */
 nav {
-  height: 100vh;
+  height: 70vh;
   width: 100%;
-  background-color: rgb(59, 56, 56);
-  color: #dbdbdb;
+  background-color: var(--primary-color--);
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -135,5 +148,5 @@ nav {
   cursor: pointer;
 }
 
-
-/* Header end */
+/* NavigationBar End */
+/* Footer End */
