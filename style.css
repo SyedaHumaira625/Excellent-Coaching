@@ -18,6 +18,7 @@ body {
   --font-two--: "Montserrat", sans-serif;
   --primary-color--: #129990;
   --secondary-color--: #f5f5f5;
+  --tertiary-color--: #333333;
 }
 
 .loader {
