@@ -1,13 +1,19 @@
-let loader = document.querySelector(".loader");
+ let lasth1 = document.querySelector(".loader-last-h1")
+let loader = document.querySelector(".loader")
 
-setTimeout(function () {
-  loader.style.top = "-100%";
-}, 3000);
+lasth1.addEventListener("animationend", function() {
+  loader.classList.add('hide');
+})
 
-let navBar = document.querySelector("nav");
-let iconXmark = document.querySelector("#cross-icon");
-let iconMenu = document.querySelector("#menu-icon");
+let menu = document.querySelector(".menu-div")
+let menui = document.querySelector(".fa-bars")
+let crossi = document.querySelector(".fa-times")
 
-iconXmark.addEventListener("click", function () {
-  navBar.style.top = "-100%";
-});
+menui.addEventListener("click", function() {
+    menu.style.top = "0"
+})
+
+crossi.addEventListener("click", function() {
+    menu.style.top = "-100%"
+})
+

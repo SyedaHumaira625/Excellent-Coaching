@@ -3,37 +3,414 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Document</title>
   </head>
   <body>
+    <!-- Loader Start   -->
     <div class="loader">
       <h1>Goals</h1>
       <h1>Consistency</h1>
-      <h1>Excellence</h1>
+      <h1 class="loader-last-h1">Excellence</h1>
     </div>
 
-    <header>
-      <nav>
+    <!-- Loader End -->
 
-      <div class="links-container">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Contact Us </a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Add to Cart</a></li>
-          <li><a href="#">Visit Our Store</a></li>
-        </ul>
+    <!-- Header Start -->
+    <header>
+      <div class="logo">
+        <h1><a href="#">Excellent Coaching</a></h1>
       </div>
 
-      <i id="cross-icon" class="fa-solid fa-circle-xmark"> </i>
-    </nav>
-    </header>
+      <nav>
+        <ul>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Faculty</a></li>
+          <li><a href="#">Accomplishment</a></li>
+        </ul>
+      </nav>
 
-   
+      <div class="search-bar">
+        <input class="srch-inp" type="search" placeholder="Type Here" />
+        <a class="srch-btn" href="#"><button>Search</button></a>
+      </div>
+
+      <div class="menu">
+        <a href="#"><i class="fa-solid fa-bars"></i></a>
+      </div>
+    </header>
+    <div class="menu-div">
+      <div class="crossi"><i class="fas fa-times"></i></div>
+
+      <div class="menu-links">
+        <ul>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Faculty</a></li>
+          <li><a href="#">Accomplishment</a></li>
+        </ul>
+
+        <div class="menu-inp">
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          <input type="search" name="" placeholder="Search Here..." />
+        </div>
+      </div>
+    </div>
+    <!-- Header End -->
+
+    <div class="hero-img">
+      <img src="images/herosectionimage.jpg" alt="" />
+      <div class="overlay"></div>
+    </div>
+
+    <!-- Herosection Start -->
+    <section class="Hero-section">
+      <div class="herosect-1">
+        <h2>A Decade Of Academic Excellence</h2>
+        <p>
+          For over 10 years, Excellent Coaching has been empowering students to
+          achieve academic success with expert guidance, consistent support, and
+          a commitment to excellence. Whether you're preparing for school exams,
+          board exams, or competitive tests, we help you reach your full
+          potential with a clear focus on your goals.
+        </p>
+        <button>Join Us</button>
+      </div>
+      <div class="herosect-2">
+        <form action="">
+          <h2>Login Here</h2>
+          <div class="input-container">
+            <input id="name-inp" type="text" />
+            <label class="label" for="Name">Enter your Name</label>
+
+            <!-- <span id="error">User name is required</span> -->
+          </div>
+
+          <div class="input-container">
+            <input id="email-inp" type="text" />
+            <label class="label" for="email">Enter your Email</label>
+            <!-- <span id="error">User Email is required</span> -->
+          </div>
+
+          <div class="input-container">
+            <input id="password-inp" type="password" />
+            <i class="fa-solid fa-eye-slash"></i>
+            <label class="label" for="password">Enter your Password</label>
+            <!-- <span id="error">Your password is required</span> -->
+          </div>
+
+          <div class="input-container">
+            <input id="cpassword-inp" type="password" />
+            <label class="label" for="Confirmation"
+              >Confirm your password</label
+            >
+            <!-- <span id="error"></span> -->
+          </div>
+
+          <button type="submit">Submit</button>
+          <div class="formlink-cont">
+            <p class="formlink">Don't have an account</p>
+
+            <a href="#">Sign up here</a>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Herosection End -->
+
+    <!-- Courses Section Start -->
+
+    <section class="Courses">
+      <h1>Our Courses</h1>
+
+      <!-- Courses section 1 start -->
+      <div class="coursesh1 courses-sect1-heading">
+        <h1>Stem Fields</h1>
+      </div>
+
+      <div class="coursessect courses-sect1">
+        <div class="cards card1">
+          <div class="card-img"><img src="images/card1img.jpg" alt="" /></div>
+          <div class="card-info">
+            <div class="icon-cont">
+              <p><i class="fas fa-graduation-cap"></i>Beginner</p>
+              <p><i class="fa-solid fa-calendar-days"></i>8 Months</p>
+            </div>
+
+            <h2>Maths Course</h2>
+            <p>Learn Problem Solving</p>
+            <span
+              >Starting From:
+              <p>PKR. 8000/Month</p></span
+            >
+
+            <div class="cardinfo-last">
+              <button>Enroll Now</button> <i class="far fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="cards card2">
+          <div class="card-img"><img src="images/physics.jpg" alt="" /></div>
+          <div class="card-info">
+            <div class="icon-cont">
+              <p><i class="fas fa-graduation-cap"></i>Beginner</p>
+              <p><i class="fa-solid fa-calendar-days"></i>8 Months</p>
+            </div>
+            <h2>Physics Course</h2>
+            <p>Understand Core Principles</p>
+
+            <span
+              >Starting From:
+              <p>PKR. 8000/Month</p></span
+            >
+
+            <div class="cardinfo-last">
+              <button>Enroll Now</button>
+              <i class="far fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="cards card3">
+          <div class="card-img"><img src="images/chemistry.jpg" alt="" /></div>
+          <div class="card-info">
+            <div class="icon-cont">
+              <p><i class="fas fa-graduation-cap"></i>Beginner</p>
+              <p><i class="fa-solid fa-calendar-days"></i>8 Months</p>
+            </div>
+            <h2>Chemistry Course</h2>
+            <p>Master Basic Reactions</p>
+
+            <span
+              >Starting From:
+              <p>PKR. 8000/Month</p></span
+            >
+
+            <div class="cardinfo-last">
+              <button>Enroll Now</button> <i class="far fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="cards card4">
+          <div class="card-img"><img src="images/biology.jpg" alt="" /></div>
+
+          <div class="card-info">
+            <div class="icon-cont">
+              <p><i class="fas fa-graduation-cap"></i>Beginner</p>
+              <p><i class="fa-solid fa-calendar-days"></i>8 Months</p>
+            </div>
+            <h2>Biology Course</h2>
+            <p>Explore Living Systems</p>
+
+            <span
+              >Starting From:
+              <p>PKR. 8000/Month</p></span
+            >
+
+            <div class="cardinfo-last">
+              <button>Enroll Now</button> <i class="far fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Courses section 1 end -->
+
+      <!-- Courses section 2 start -->
+      <div class="coursesh1 courses-sect1-heading">
+        <h1>Arts & Humanities</h1>
+      </div>
+
+      <div class="coursessect courses-sect1">
+        <div class="cards card1">
+          <div class="card-img"><img src="images/card1img.jpg" alt="" /></div>
+          <div class="card-info">
+            <div class="icon-cont">
+              <p><i class="fas fa-graduation-cap"></i>Beginner</p>
+              <p><i class="fa-solid fa-calendar-days"></i>8 Months</p>
+            </div>
+
+            <h2>History Course</h2>
+            <p>Trace Human Civilization</p>
+            <span
+              >Starting From:
+              <p>PKR. 8000/Month</p></span
+            >
+
+            <div class="cardinfo-last">
+              <button>Enroll Now</button> <i class="far fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="cards card2">
+          <div class="card-img"><img src="images/physics.jpg" alt="" /></div>
+          <div class="card-info">
+            <div class="icon-cont">
+              <p><i class="fas fa-graduation-cap"></i>Beginner</p>
+              <p><i class="fa-solid fa-calendar-days"></i>8 Months</p>
+            </div>
+            <h2>Geography Course</h2>
+            <p>Explore Earth Systems</p>
+
+            <span
+              >Starting From:
+              <p>PKR. 8000/Month</p></span
+            >
+
+            <div class="cardinfo-last">
+              <button>Enroll Now</button>
+              <i class="far fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="cards card3">
+          <div class="card-img"><img src="images/chemistry.jpg" alt="" /></div>
+          <div class="card-info">
+            <div class="icon-cont">
+              <p><i class="fas fa-graduation-cap"></i>Beginner</p>
+              <p><i class="fa-solid fa-calendar-days"></i>8 Months</p>
+            </div>
+            <h2>Civics Course</h2>
+            <p>Understand Social Rules</p>
+
+            <span
+              >Starting From:
+              <p>PKR. 8000/Month</p></span
+            >
+
+            <div class="cardinfo-last">
+              <button>Enroll Now</button> <i class="far fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="cards card4">
+          <div class="card-img"><img src="images/biology.jpg" alt="" /></div>
+
+          <div class="card-info">
+            <div class="icon-cont">
+              <p><i class="fas fa-graduation-cap"></i>Beginner</p>
+              <p><i class="fa-solid fa-calendar-days"></i>8 Months</p>
+            </div>
+            <h2>Psychology Course</h2>
+            <p>Study Human Behavior</p>
+
+            <span
+              >Starting From:
+              <p>PKR. 8000/Month</p></span
+            >
+
+            <div class="cardinfo-last">
+              <button>Enroll Now</button> <i class="far fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Courses section 2 end -->
+
+      <!-- Courses section 3 start -->
+      <div class="coursesh1 courses-sect1-heading">
+        <h1>Commerce and Finance</h1>
+      </div>
+
+      <div class="coursessect courses-sect1">
+        <div class="cards card1">
+          <div class="card-img"><img src="images/card1img.jpg" alt="" /></div>
+          <div class="card-info">
+            <div class="icon-cont">
+              <p><i class="fas fa-graduation-cap"></i>Beginner</p>
+              <p><i class="fa-solid fa-calendar-days"></i>8 Months</p>
+            </div>
+
+            <h2>Accounting Course</h2>
+            <p>Understand Financial Records</p>
+            <span
+              >Starting From:
+              <p>PKR. 8000/Month</p></span
+            >
+
+            <div class="cardinfo-last">
+              <button>Enroll Now</button> <i class="far fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="cards card2">
+          <div class="card-img"><img src="images/physics.jpg" alt="" /></div>
+          <div class="card-info">
+            <div class="icon-cont">
+              <p><i class="fas fa-graduation-cap"></i>Beginner</p>
+              <p><i class="fa-solid fa-calendar-days"></i>8 Months</p>
+            </div>
+            <h2>Economics Course</h2>
+            <p>Learn Market Forces</p>
+
+            <span
+              >Starting From:
+              <p>PKR. 8000/Month</p></span
+            >
+
+            <div class="cardinfo-last">
+              <button>Enroll Now</button>
+              <i class="far fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="cards card3">
+          <div class="card-img"><img src="images/chemistry.jpg" alt="" /></div>
+          <div class="card-info">
+            <div class="icon-cont">
+              <p><i class="fas fa-graduation-cap"></i>Beginner</p>
+              <p><i class="fa-solid fa-calendar-days"></i>8 Months</p>
+            </div>
+            <h2>Business Course</h2>
+            <p>Explore Business Concepts</p>
+
+            <span
+              >Starting From:
+              <p>PKR. 8000/Month</p></span
+            >
+
+            <div class="cardinfo-last">
+              <button>Enroll Now</button> <i class="far fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="cards card4">
+          <div class="card-img"><img src="images/biology.jpg" alt="" /></div>
+
+          <div class="card-info">
+            <div class="icon-cont">
+              <p><i class="fas fa-graduation-cap"></i>Beginner</p>
+              <p><i class="fa-solid fa-calendar-days"></i>8 Months</p>
+            </div>
+            <h2>Finance Course</h2>
+            <p>Financial Growth Skills</p>
+
+            <span
+              >Starting From:
+              <p>PKR. 8000/Month</p></span
+            >
+
+            <div class="cardinfo-last">
+              <button>Enroll Now</button> <i class="far fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Courses section 3 end -->
+    </section>
+
+    <!-- Courses Section End -->
+
     <script src="index.js"></script>
   </body>
 </html>

@@ -1,11 +1,68 @@
-@media (max-width: 750px) {
-    .loader h1 {
-        font-size: 3.5rem;
-    }
+@media (max-width: 1024px) {
+  header {
+    height: 9vh;
+    padding: 0 1.9rem;
+    overflow: hidden;
+  }
+
+  .logo h1 a {
+    font-size: 6vw;
+  }
+
+  .logo h1 {
+    padding-bottom: 0.3rem;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .search-bar {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .menu a i {
+    font-size: 5.9vw;
+  }
+
+  .menu-div {
+    display: block;
+  }
+
+  .menu-div i {
+    font-size: 5.9vw;
+  }
+}
+
+@media (max-width: 800px) {
 }
 
 @media (max-width: 360px) {
-    .loader h1 {
-        font-size: 3rem;
-    }
+  header {
+    padding: 0 1.2rem;
+  }
+
+  .menu-links {
+    padding-bottom: 0rem;
+  }
+  
+  .menu-inp input {
+    padding: 0.52rem;
+  }
+
+  .menu-inp button {
+    padding: 0.5rem;
+  }
+
+
+}
+
+@media (max-width: 240px) {
+  .logo h1 {
+    padding-bottom: 0.7rem;
+  }
 }
