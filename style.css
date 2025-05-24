@@ -270,7 +270,7 @@ nav ul li a {
   position: absolute;
   top: -15%;
   left: 0;
-  background-image: url(Images/Herosectionimage.jpg);
+  background-image: url(images/Herosectionimage.jpg);
   background-size: cover;
   z-index: -2;
 }
