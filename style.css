@@ -13,14 +13,19 @@ body {
   overflow-x: hidden;
 }
 
+body {
+  background-color: var(--secondary-color--);
+}
+
 :root {
   --font-one--: "Roboto Condensed", sans-serif;
   --font-two--: "Montserrat", sans-serif;
   --primary-color--: #129990;
   --secondary-color--: #f5f5f5;
+  --tertiary-color--: #333333;
 }
 /* Loader Start */
-.loader {
+/* .loader {
   height: 100%;
   width: 100%;
   background-color: var(--primary-color--);
@@ -70,7 +75,7 @@ body {
   100% {
     opacity: 0;
   }
-}
+} */
 /* Loader End */
 
 /* Header Start */
@@ -83,8 +88,7 @@ header {
   height: 15vh;
   width: 100%;
   background-color: transparent;
-  animation: headeranime 2s ease-in-out 5s;
-  z-index: 10;
+  /* animation: headeranime 2s ease-in-out 5s; */
 }
 
 @keyframes headeranime {
@@ -107,7 +111,7 @@ header {
 .logo h1 {
   padding-bottom: 0.4rem;
   position: relative;
-  z-index: 6;
+  z-index: 11;
 }
 
 nav ul {
@@ -134,14 +138,13 @@ nav ul li a {
 }
 
 .srch-inp {
-  border: none;
+ border: none;
   padding: 0.5rem 0.5rem;
   outline: none;
   font-size: 1.3vw;
   font-family: var(--font-one--);
   background-color: var(--secondary-color--);
 }
-
 .srch-btn button {
   background-color: var(--primary-color--);
   color: var(--secondary-color--);
@@ -160,7 +163,6 @@ nav ul li a {
 .menu button {
   padding: 0.5rem 1rem;
 }
-
 .menu a {
   font-family: var(--font-one--);
   text-decoration: none;
@@ -171,25 +173,41 @@ nav ul li a {
   font-size: 3.3vw;
   color: var(--secondary-color--);
 }
-
 .menu-div {
-  height: 60%;
-  z-index: 5;
+  height: 70%;
+  z-index: 16;
   width: 100%;
   background-color: var(--primary-color--);
   position: fixed;
   top: -100%;
   transition: all 2s ease;
   display: none;
+  /* border-bottom-left-radius: 40px; */
+  /* border-bottom-right-radius: 40px; */
+  box-shadow: 0 0 20px 10px rgba(0,0,0, 0.5);
+  
+}
+.crossi h1 a {
+ text-decoration: none;
+  color: var(--secondary-color--);
+  font-family: var(--font-one--);
+  font-size: 3.2vw;
+  font-weight: 800;
+}
+
+.crossi h1 {
+  padding-bottom: 0.4rem;
+ 
 }
 
 .crossi {
   width: 100%;
-  height: 9vh;
+  height: 12vh;
+  font-weight: 800;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  padding-right: 1.9rem;
+  padding: 1.5rem;
 }
 
 .crossi i {
@@ -216,40 +234,40 @@ nav ul li a {
 .menu-links ul li a {
   text-decoration: none;
   color: var(--secondary-color--);
-  font-size: 5.1vw;
-  font-family: var(fo);
-  font-weight: bold;
+  font-size: 5.3vw;
+  font-family: var(--font-one--);
+  line-height: 1.5;
+  font-weight: 450;
 }
 
-.menu-inp {
+.menu-links ul li a:hover {
+  text-decoration: underline;
+  color: var(--secondary-color--);
+}
+
+.menu-search-bar {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
 }
 
-.menu-inp button {
+.menu-srch-btn button {
+  padding: 0.6rem;
+  background-color: var(--secondary-color--);
+  color: var(--primary-color--);
+  font-size: 5vw;
+  outline: none;
   border: none;
-  border-bottom: 2px solid var(--secondary-color--);
-  padding: 1rem;
-  color: var(--secondary-color--);
-  background-color: transparent;
+  border-left: 1px solid var(--primary-color--);
 }
 
-.menu-inp button i {
-  color: var(--secondary-color--);
-}
-
-.menu-inp input {
-  background-color: transparent;
-  padding: 1rem;
-  font-family: var(--font-one--);
+.menu-srch-inp {
   border: none;
-  border-bottom: 2px solid var(--secondary-color--);
   outline: none;
   font-size: 5vw;
-}
-
-.menu-inp input::placeholder {
-  color: var(--secondary-color--);
+  padding: 0.6rem;
+  background-color: var(--secondary-color--);
+  width: 30vw;
 }
 
 /* Header End */
@@ -299,26 +317,26 @@ nav ul li a {
 .herosect-1 h2 {
   font-family: var(--font-one--);
   font-weight: 700;
-  font-size: 3.8vw;
+  font-size: 2.5rem;
   width: 44vw;
 }
 
 .herosect-1 p {
   font-family: var(--font-two--);
   font-weight: 550;
-  font-size: 1.4vw;
+  font-size: 1rem;
 }
 
 .herosect-1 button {
   font-family: var(--font-one--);
-  font-size: 1.6vw;
-  padding: 0.5rem 0.8rem;
-  border-radius: 2px;
+  font-size: 1.4rem;
+  padding: 0.6rem 0.8rem;
   border: none;
   font-weight: bold;
-  width: 12vw;
+  width: 35%;
   background-color: var(--primary-color--);
   color: var(--secondary-color--);
+  border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -347,7 +365,7 @@ form {
   border-radius: 4px;
   font-family: var(--font-one--);
   padding: 1rem 0;
-  font-size: 1.8vw;
+  font-size: 1.3rem;
 }
 
 .input-container {
@@ -366,23 +384,23 @@ input {
 form i {
   position: absolute;
   right: 3px;
-  font-size: 1.4vw;
+  font-size: 1rem;
 }
 
 .label {
   position: absolute;
-  font-size: 1.2vw;
+  font-size: 0.8rem;
   top: -3px;
 }
 
 form input:focus + .label {
   top: -16px;
-  font-size: 1vw;
+  font-size: 0.7rem;
 }
 
 form button {
   padding: 0.5rem 0.8rem;
-  font-size: 1.5vw;
+  font-size: 1rem;
   border-radius: 2px;
   width: 12vw;
   border: none;
@@ -404,14 +422,14 @@ form button:hover {
 
 .formlink-cont p {
   color: var(--secondary-color--);
-  font-size: 1.5vw;
+  font-size: 1rem;
 }
 
 .formlink-cont a {
   text-decoration: none;
   color: var(--secondary-color--);
   cursor: pointer;
-  font-size: 1.5vw;
+  font-size: 1rem;
 }
 
 form a:hover {
@@ -424,18 +442,19 @@ form a:hover {
 .Courses {
   height: 100vh;
   display: grid;
-  padding: 4rem 4rem 4rem 4rem;
+  padding: 0rem 4rem 4rem 4rem;
+  background-color: var(--secondary-color--);
 }
 
 .Courses h1 {
-  font-size: 4rem;
+  font-size: 5.5rem;
   font-weight: 800;
-  font-family: var(--heading-font);
+  font-family: var(--font-one--);
 }
 
 .coursesh1 h1 {
-  font-size: 3.5rem;
-  font-family: var(--heading-font);
+  font-size: 4.5rem;
+  font-family: var(--font-one--);
 }
 
 .coursessect {
@@ -443,21 +462,30 @@ form a:hover {
   justify-items: center;
   padding: 2.5rem 0;
   gap: 1.9rem;
-  justify-content: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .cards {
   height: 71vh;
   width: 20vw;
-  /* border-radius: 8px; */
   box-shadow: 2px 2px 20px 4px rgb(0, 0, 0, 0.3);
+  color: var(--tertiary-color--);
 }
 
 .card-img {
   height: 47%;
   width: 100%;
-  border-radius: 8px;
+  position: relative;
+}
+
+.card-img::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .card-img img {
@@ -483,35 +511,38 @@ form a:hover {
 .icon-cont i {
   padding-right: 0.3rem;
   font-size: 0.8rem;
+  color: var(--primary-color--);
 }
 
 .icon-cont p {
   font-size: 0.8rem;
-  font-family: var(--heading-font);
+  font-family: var(--font-one--);
 }
 
 .card-info h2 {
-  font-family: var(--heading-font);
+  font-family: var(--font-one--);
+  color: var(--tertiary-color--);
 }
 
 .card-info :nth-child(3) {
-  font-family: var(--heading-font);
+  font-family: var(--font-one--);
   font-size: 0.9rem;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--tertiary-color--);
   padding-bottom: 0.4rem;
 }
 
 .card-info span {
-  font-family: var(--text-font--);
+  font-family: var(--font-two--);
   font-size: 0.7rem;
   padding-top: 0.4rem;
 }
 
 .card-info span p {
-  font-family: var(--heading-font);
+  font-family: var(--font-one--);
   font-size: 1rem;
   font-weight: bold;
+  color: var(--primary-color--);
 }
 
 .cardinfo-last {
@@ -522,9 +553,9 @@ form a:hover {
 
 .cardinfo-last button {
   width: 74%;
-  font-family: var(--text-font--);
+  font-family: var(--font-two--);
   font-size: 0.8rem;
-  background-color: var(--secondary-color--);
+  background-color: var(--primary-color--);
   color: var(--third-color--);
   font-weight: bold;
   border: none;
@@ -541,4 +572,7 @@ form a:hover {
   font-size: 1.5rem;
 }
 
+.cardinfo-last i:hover {
+  color: var(--primary-color--);
+}
 /* Courses Section End */

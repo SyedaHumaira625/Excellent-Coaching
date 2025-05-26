@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="sect.css" />
     <link rel="stylesheet" href="responsive.css" />
-    <link rel="preload" as="image" href="images/Herosectionimage.jpg">
+    <link rel="preload" as="image" href="images/Herosectionimage.jpg" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -13,24 +13,22 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Document</title>
+    <title>Excellent Coaching</title>
   </head>
   <body>
-
-  <!-- Loader Start  -->
-     <div class="loader">
+    <!-- Loader Start  -->
+    <!-- <div class="loader">
       <h1>Goals</h1>
       <h1>Consistency</h1>
       <h1 class="loader-last-h1">Excellence</h1>
-    </div>
+    </div> -->
 
-     <!-- Loader End -->
+    <!-- Loader End -->
 
-    
     <!-- Header Start -->
     <header>
       <div class="logo">
-        <h1><a href="#">Excellent Coaching</a></h1>
+        <h1 class="head"><a href="#">Excellent Coaching</a></h1>
       </div>
 
       <nav>
@@ -52,8 +50,12 @@
         <a href="#"><i class="fa-solid fa-bars"></i></a>
       </div>
     </header>
+
     <div class="menu-div">
-      <div class="crossi"><i class="fas fa-times"></i></div>
+      <div class="crossi">
+        <h1 class="head"><a href="#">Excellent Coaching</a></h1>
+        <i class="fa-regular fa-circle-xmark"></i>
+      </div>
 
       <div class="menu-links">
         <ul>
@@ -64,19 +66,18 @@
           <li><a href="#">Accomplishment</a></li>
         </ul>
 
-        <div class="menu-inp">
-          <button><i class="fa-solid fa-magnifying-glass"></i></button>
-          <input type="search" name="" placeholder="Search Here..." />
+        <div class="menu-search-bar">
+          <input class="menu-srch-inp" type="search" placeholder="Type Here" />
+          <a class="menu-srch-btn" href="#"><button>Search</button></a>
         </div>
       </div>
     </div>
-    <!-- Header End -->
+    <!-- Header End
 
     
  
-    <!-- Herosection Start -->
-      <section class="Hero-section">  
-    
+    <-- Herosection Start -->
+    <section class="Hero-section">
       <div class="herosect-1">
         <h2>A Decade Of Academic Excellence</h2>
         <p>
@@ -122,21 +123,20 @@
           <button type="submit">Submit</button>
           <div class="formlink-cont">
             <p class="formlink">Don't have an account</p>
-          
-          <a href="#">Sign up here</a>
+
+            <a href="#">Sign up here</a>
           </div>
         </form>
       </div>
 
-      <div class="overlay">
+      <!-- <div class="overlay">
 
-      </div>
-      
-    </section>  
-      
+      </div> -->
+    </section>
+
     <!-- Herosection End -->
 
-        <!-- Courses Section Start -->
+    <!-- Courses Section Start -->
 
     <section class="Courses">
       <h1>Our Courses</h1>
@@ -357,9 +357,7 @@
               <p><i class="fa-solid fa-calendar-days"></i>8 Months</p>
             </div>
             <h2>Economics Course</h2>
-            <p>
-              Learn Market Forces
-            </p>
+            <p>Learn Market Forces</p>
 
             <span
               >Starting From:
@@ -419,6 +417,6 @@
 
     <!-- Courses Section End -->
 
-    <script src="index.js"></script>
+    <script src="sect.js"></script>
   </body>
 </html>
