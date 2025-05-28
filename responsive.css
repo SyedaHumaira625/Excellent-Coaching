@@ -871,207 +871,10 @@
 
 
 
-/* @media (max-width: 385px) {
-  .crossi {
-    padding: 1rem;
-  }
-
-  .crossi h1 a,
-  .crossi i {
-    font-size: 1.5rem;
-  }
-
-  .menu-div {
-    width: 80%;
-  }
-
-  .menu-links {
-    padding: 0.5rem 0rem 0.4rem 1rem;
-  }
-
-  .menu-links ul {
-    gap: 2.3rem;
-  }
-
-  .menu-links ul li a {
-    font-size: 1.1rem;
-  }
-
-  .menu-srch-btn button {
-    font-size: 1rem;
-    padding: 0.5rem;
-    width: 21vw;
-  }
-
-  .menu-srch-inp {
-    width: 48vw;
-    font-size: 1rem;
-    padding: 0.5rem;
-  }
-
-  .herosect-1 {
-    padding: 3rem 2rem 3rem 1.5rem;
-    gap: 1rem;
-  }
-
-  .herosect-1 h2 {
-    font-size: 1.8rem;
-    width: 78vw;
-  }
-
-  .herosect-1 p {
-    width: 88vw;
-  }
-
-  .herosect-1 button {
-    width: 38%;
-  }
-
-  .Courses {
-    padding: 2rem;
-  }
-
-  .Courses h1 {
-    font-size: 3.1rem;
-  }
-
-  .coursesh1 h1 {
-    font-size: 2.9rem;
-  }
-
-  .coursessect {
-    grid-template-columns: 1fr;
-  }
-
-  .cards {
-    width: 75vw;
-  }
-
-  .card-info {
-    gap: 0.7rem;
-  }
-
-  .icon-cont i,
-  .icon-cont p {
-    font-size: 1rem;
-  }
-
-  .card-info h2 {
-    font-size: 2rem;
-  }
-
-  .card-info :nth-child(3) {
-    font-size: 1.3rem;
-  }
-
-  .card-info span {
-    font-size: 0.9rem;
-  }
-
-  .card-info span p {
-    font-size: 1.5rem;
-  }
-
-  .cardinfo-last button {
-    font-size: 1.2rem;
-  }
-
-  .cardinfo-last i {
-    font-size: 1.8rem;
-  }
-} */
 
 
 
-@media (max-width: 345px) {
 
-  .loader h1 {
-    font-size: 2.8rem;
-  }
-
-  .menu-cont-parent {
-    height: 68vh;
-  }
-
-  .menu-div {
-    width: 100%;
-  }
-
-  .crossi {
-    padding: 0.8rem 1rem;
-  }
-
-  .menu-links {
-    padding: 0.5rem 2rem 1.5rem 1rem;
-  }
-
-  .menu-links ul {
-    gap: 1.9rem;
-  }
-
-  .menu-links ul li a {
-    font-size: 1.4rem;
-  }
-
-  .menu-srch-inp {
-    width: 84%;
-    padding: 0.7rem;
-  }
-
-  .menu-srch-btn button {
-    padding: 0.7rem;
-  }
-
-  .logo h1 a,
-  .menu a i,
-  .crossi h1 a,
-  .crossi i {
-    font-size: 1.6rem;
-  }
-
-  .herosect-1 h2 {
-    font-size: 1.7rem;
-  }
-
-  .herosect-1 p {
-    font-size: 1.1rem;
-    line-height: 1.5rem;
-  }
-
-  .herosect-1 button {
-    width: 44%;
-  }
-
-  .cards {
-    height: 62vh;
-    width: 84vw;
-  }
-
-  .card-info {
-    gap: 1rem;
-  }
-
-  .icon-cont i,
-  .icon-cont p {
-    font-size: 1.2rem;
-  }
-
-  .card-info span {
-    font-size: 1.1rem;
-  }
-
-  .card-info span p {
-    font-size: 1.7rem;
-  }
-
-  .cardinfo-last button {
-    font-size: 1.5rem;
-  }
-
-  .cardinfo-last i {
-    font-size: 2.1rem;
-  }
-}
 
 @media (max-width: 376px) {
   .menu-cont-parent {
@@ -1254,7 +1057,15 @@
 
   
   .menu-links ul {
-    gap: 1.3rem;
+    gap: 1.1rem;
+  }
+
+  .menu-links ul li a {
+    font-size: 1.1rem;
+  }
+
+  .menu-srch-btn button , .menu-srch-inp{
+    font-size: 1rem;
   }
 
   .logo h1 a,
@@ -1298,6 +1109,96 @@
 
   .cardinfo-last i {
     font-size: 1.9em;
+  }
+}
+
+@media (max-width: 345px) {
+
+  .loader h1 {
+    font-size: 2.8rem;
+  }
+
+  .menu-cont-parent {
+    height: 66vh;
+  }
+
+  .menu-div {
+    width: 100%;
+  }
+
+  .crossi {
+    padding: 0.8rem 1rem;
+  }
+
+  .menu-links {
+    padding: 0.5rem 2rem 1.5rem 1rem;
+  }
+
+  .menu-links ul {
+    gap: 1.8rem;
+  }
+
+  .menu-links ul li a {
+    font-size: 1.4rem;
+  }
+
+  .menu-srch-inp {
+    width: 84%;
+    padding: 0.7rem;
+  }
+
+  .menu-srch-btn button {
+    padding: 0.7rem;
+  }
+
+  .logo h1 a,
+  .menu a i,
+  .crossi h1 a,
+  .crossi i {
+    font-size: 1.6rem;
+  }
+
+  .herosect-1 h2 {
+    font-size: 1.7rem;
+  }
+
+  .herosect-1 p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  .herosect-1 button {
+    width: 44%;
+  }
+
+  .cards {
+    height: 62vh;
+    width: 84vw;
+  }
+
+  .card-info {
+    gap: 1rem;
+  }
+
+  .icon-cont i,
+  .icon-cont p {
+    font-size: 1.2rem;
+  }
+
+  .card-info span {
+    font-size: 1.1rem;
+  }
+
+  .card-info span p {
+    font-size: 1.7rem;
+  }
+
+  .cardinfo-last button {
+    font-size: 1.5rem;
+  }
+
+  .cardinfo-last i {
+    font-size: 2.1rem;
   }
 }
 
