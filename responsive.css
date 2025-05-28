@@ -155,7 +155,7 @@
 
   .menu-cont-parent {
     display: block;
-    height: 78vh;
+    height: 70vh;
   }
 
   .menu-div {
@@ -168,7 +168,7 @@
   }
 
   .menu-links ul {
-    gap: 5rem;
+    gap: 3rem;
   }
 
   .menu-links ul li a {
@@ -183,7 +183,7 @@
   .menu-srch-inp {
     font-size: 2rem;
     padding: 1rem;
-    width: 72%;
+    width: 76%;
   }
 
   header {
@@ -288,7 +288,7 @@
   }
 
   .menu-links ul {
-    gap: 2.5rem;
+    gap: 1.8rem;
   }
 
   .menu-links ul li a {
@@ -303,6 +303,7 @@
   .menu-srch-inp {
     font-size: 1.5rem;
     padding: 0.8rem;
+    width: 85%;
   }
 
   .logo h1 a,
@@ -381,7 +382,7 @@
 
 @media (max-width: 821px) {
   .menu-cont-parent {
-    height: 82vh;
+    height: 75vh;
   }
 
   .menu-div {
@@ -407,7 +408,7 @@
   }
 
   .menu-links ul {
-    gap: 5rem;
+    gap: 3.2rem;
   }
 
   .menu-links ul li a {
@@ -511,7 +512,7 @@
   }
 
   .menu-cont-parent {
-    height: 84vh;
+    height: 78vh;
   }
 
   .menu-links {
@@ -519,7 +520,7 @@
   }
 
   .menu-links ul {
-    gap: 4.6rem;
+    gap: 3rem;
   }
 
   .menu-links ul li a {
@@ -588,11 +589,11 @@
   }
 
   .menu-links {
-    padding: 0.5rem 2rem 0.5rem 1.4rem;
+    padding: 0.5rem 2rem 0rem 1.4rem;
   }
 
   .menu-links ul {
-    gap: 3em;
+    gap: 1.7rem;
   }
 
   .menu-links ul li a {
@@ -687,7 +688,7 @@
   }
 
   .menu-cont-parent {
-    height: 74vh;
+    height: 69vh;
   }
 
   .menu-div {
@@ -699,7 +700,7 @@
   }
 
   .menu-links {
-    padding: 0.5rem 1rem 1rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
   }
 
   .menu-links ul li a {
@@ -707,7 +708,7 @@
   }
 
   .menu-links ul {
-    gap: 3.1rem;
+    gap: 2.1rem;
   }
 
   .logo h1 a,
@@ -828,6 +829,10 @@
     font-size: 3rem;
   }
 
+  .menu-cont-parent {
+    height: 70vh;
+  }
+
   .logo h1 a,
   .crossi h1 a {
     font-size: 1.7rem;
@@ -840,6 +845,10 @@
 
   .menu-links {
     padding: 0.5rem 2rem 0.5rem 1rem;
+  }
+
+  .menu-links ul {
+    gap: 1.9rem;
   }
 
   .herosect-1 p {
@@ -860,74 +869,9 @@
   }
 }
 
-@media (max-width: 378px) {
-  .menu-cont-parent {
-    height: 75vh;
-  }
 
-  .logo h1 a {
-    font-size: 1.5rem;
-  }
 
-  .crossi h1 a {
-    font-size: 1.5rem;
-  }
-
-  .menu a i,
-  .crossi i {
-    font-size: 1.5rem;
-  }
-
-  .herosect-1 h2 {
-    font-size: 0.9rem;
-  }
-
-  .herosect-1 p {
-    font-size: 1rem;
-    line-height: 1.3rem;
-  }
-
-  .herosect-1 button {
-    font-size: 1.2rem;
-    padding: 0.7rem;
-  }
-
-  .cards {
-    height: 75vh;
-  }
-
-  .card-info {
-    gap: 1.1rem;
-  }
-
-  .icon-cont i,
-  .icon-cont p {
-    font-size: 1.1rem;
-  }
-
-  .card-info h2 {
-    font-size: 2rem;
-  }
-
-  .card-info :nth-child(3) {
-    font-size: 1.3rem;
-  }
-
-  .card-info span {
-    font-size: 0.9rem;
-  }
-
-  .cardinfo-last button {
-    font-size: 1.1rem;
-    padding: 0.6rem;
-  }
-
-  .cardinfo-last i {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width: 385px) {
+/* @media (max-width: 385px) {
   .crossi {
     padding: 1rem;
   }
@@ -1035,7 +979,9 @@
   .cardinfo-last i {
     font-size: 1.8rem;
   }
-}
+} */
+
+
 
 @media (max-width: 345px) {
 
@@ -1059,12 +1005,16 @@
     padding: 0.5rem 2rem 1.5rem 1rem;
   }
 
+  .menu-links ul {
+    gap: 1.9rem;
+  }
+
   .menu-links ul li a {
     font-size: 1.4rem;
   }
 
   .menu-srch-inp {
-    width: 80%;
+    width: 84%;
     padding: 0.7rem;
   }
 
@@ -1123,7 +1073,98 @@
   }
 }
 
+@media (max-width: 376px) {
+  .menu-cont-parent {
+    height: 70vh;
+  }
+
+  .menu-links ul {
+    gap: 1.2rem;
+  }
+
+  .menu-links ul li a {
+    font-size: 1.2rem;
+  }
+
+  .menu-srch-inp {
+    font-size: 1.1rem;
+    width: 80%;
+    padding: 0.7rem;
+  }
+
+  .menu-srch-btn button {
+    font-size: 1.1rem;
+    padding: 0.7rem;
+  }
+
+  .logo h1 a {
+    font-size: 1.5rem;
+  }
+
+  .crossi h1 a {
+    font-size: 1.5rem;
+  }
+
+  .menu a i,
+  .crossi i {
+    font-size: 1.5rem;
+  }
+
+  .herosect-1 h2 {
+    font-size: 1.6rem;
+  }
+
+  .herosect-1 p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+
+  .herosect-1 button {
+    font-size: 1.2rem;
+    padding: 0.7rem;
+  }
+
+  .cards {
+    height: 77vh;
+  }
+
+  .card-info {
+    gap: 0.9rem;
+  }
+
+  .icon-cont i,
+  .icon-cont p {
+    font-size: 1.1rem;
+  }
+
+  .card-info h2 {
+    font-size: 2rem;
+  }
+
+  .card-info :nth-child(3) {
+    font-size: 1.3rem;
+  }
+
+  .card-info span {
+    font-size: 0.9rem;
+  }
+
+  .cardinfo-last button {
+    font-size: 1.1rem;
+    padding: 0.6rem;
+  }
+
+  .cardinfo-last i {
+    font-size: 2rem;
+  }
+}
+
 @media screen and (width: 360px) and (height: 740px) {
+
+  .menu-cont-parent {
+    height: 66vh;
+  }
+
   .logo h1 a,
   .menu a i,
   .crossi h1 a,
@@ -1131,9 +1172,17 @@
     font-size: 1.6rem;
   }
 
+
+
   .menu-div {
     width: 90%;
   }
+
+  .menu-links ul {
+    gap: 1.4rem;
+  }
+
+  
 
   .menu-links ul li a {
     font-size: 1.3rem;
@@ -1154,7 +1203,7 @@
   }
 
   .card-info {
-    gap: 1rem;
+    gap: 0.9rem;
   }
 
   .cards {
@@ -1163,13 +1212,13 @@
   }
 
   .menu-srch-inp {
-    width: 55vw;
+    width: 57vw;
   }
 }
 
 @media screen and (min-width: 850px) and (max-width: 855px) {
   .menu-cont-parent {
-    height: 79vh;
+    height: 7vh;
   }
 
   .menu-links {
@@ -1197,6 +1246,15 @@
 
   .loader h1 {
     font-size: 2.9rem;
+  }
+
+  .menu-cont-parent {
+    height: 68vh;
+  }
+
+  
+  .menu-links ul {
+    gap: 1.3rem;
   }
 
   .logo h1 a,
@@ -1242,3 +1300,5 @@
     font-size: 1.9em;
   }
 }
+
+

@@ -1,9 +1,9 @@
- let lasth1 = document.querySelector(".loader-last-h1")
-let loader = document.querySelector(".loader")
+//  let lasth1 = document.querySelector(".loader-last-h1")
+// let loader = document.querySelector(".loader")
 
-lasth1.addEventListener("animationend", function() {
-  loader.classList.add('hide');
-})
+// lasth1.addEventListener("animationend", function() {
+//   loader.classList.add('hide');
+// })
 
 
 
