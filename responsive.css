@@ -569,7 +569,6 @@
 }
 
 @media (max-width: 541px) {
-
   .loader h1 {
     font-size: 3.5rem;
   }
@@ -678,7 +677,6 @@
 }
 
 @media (max-width: 438px) {
-
   .loader h1 {
     font-size: 3.4rem;
   }
@@ -824,7 +822,6 @@
 }
 
 @media (max-width: 395px) {
-
   .loader h1 {
     font-size: 3rem;
   }
@@ -868,13 +865,6 @@
     gap: 1.2rem;
   }
 }
-
-
-
-
-
-
-
 
 @media (max-width: 376px) {
   .menu-cont-parent {
@@ -963,7 +953,6 @@
 }
 
 @media screen and (width: 360px) and (height: 740px) {
-
   .menu-cont-parent {
     height: 66vh;
   }
@@ -975,8 +964,6 @@
     font-size: 1.6rem;
   }
 
-
-
   .menu-div {
     width: 90%;
   }
@@ -984,8 +971,6 @@
   .menu-links ul {
     gap: 1.4rem;
   }
-
-  
 
   .menu-links ul li a {
     font-size: 1.3rem;
@@ -1046,7 +1031,6 @@
 }
 
 @media screen and (width: 360px) and (height: 640px) {
-
   .loader h1 {
     font-size: 2.9rem;
   }
@@ -1055,7 +1039,6 @@
     height: 68vh;
   }
 
-  
   .menu-links ul {
     gap: 1.1rem;
   }
@@ -1064,7 +1047,8 @@
     font-size: 1.1rem;
   }
 
-  .menu-srch-btn button , .menu-srch-inp{
+  .menu-srch-btn button,
+  .menu-srch-inp {
     font-size: 1rem;
   }
 
@@ -1113,7 +1097,6 @@
 }
 
 @media (max-width: 345px) {
-
   .loader h1 {
     font-size: 2.8rem;
   }
@@ -1203,3 +1186,22 @@
 }
 
 
+@media (max-width: 768px) {
+            .card-pic img {
+                height: 40vw;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card-pic img {
+                height: 60vw;
+            }
+
+        }
+        @media (max-width:1100){
+            .Our-students h1{
+                margin-bottom: 1.2rem;
+                
+            }
+        }
+        

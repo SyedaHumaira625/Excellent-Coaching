@@ -11,6 +11,7 @@ body {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -455,20 +456,20 @@ form a:hover {
 
 /* Courses Section Start */
 .Courses {
-  height: 100vh;
+  /* height: 400vh; */
   display: grid;
-  padding: 0rem 4rem 4rem 4rem;
+  padding: 0rem 4rem 3rem 4rem;
   background-color: var(--secondary-color--);
 }
 
 .Courses h1 {
-  font-size: 4.5rem;
+  font-size: 4.4rem;
   font-weight: 800;
   font-family: var(--font-one--);
 }
 
 .coursesh1 h1 {
-  font-size: 4.1rem;
+  font-size: 4rem;
   font-family: var(--font-one--);
 }
 
@@ -592,3 +593,66 @@ form a:hover {
   color: var(--primary-color--);
 }
 /* Courses Section End */
+
+/* Our Students Section Start */
+
+.Our-students {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.Our-students h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+  color: var(--primary-color--);
+  margin-bottom: 1rem;
+  font-family: var(--font-two--);
+}
+
+.parent {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.card-pic img {
+  height: 20vw;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-pic {
+  font-family: var(--font-two--);
+  width: 350px;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 1rem;
+  height: auto;
+  transition: transform 0.3s;
+  border-left: 2px solid var(--primary-color--);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-pic:hover {
+  transform: translateY(-5px);
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+  height: auto;
+}
+
+.card-content p {
+  padding-top: 1rem;
+  color: var(--tertiary-color--);
+}
+
+/* Our Students Section End */
