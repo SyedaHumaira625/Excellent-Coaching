@@ -456,21 +456,22 @@ form a:hover {
 
 /* Courses Section Start */
 .Courses {
-  /* height: 400vh; */
   display: grid;
   padding: 0rem 4rem 3rem 4rem;
   background-color: var(--secondary-color--);
 }
 
 .Courses h1 {
-  font-size: 4.4rem;
-  font-weight: 800;
+  font-size: 4.2rem;
+  font-weight: bold;
   font-family: var(--font-one--);
+  color: var(--tertiary-color--);
 }
 
 .coursesh1 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-family: var(--font-one--);
+  color: var(--tertiary-color--);
 }
 
 .coursessect {
@@ -598,19 +599,17 @@ form a:hover {
 
 .Our-students {
   height: 100vh;
-  position: relative;
   display: flex;
   flex-direction: column;
+
 }
 
 .Our-students h1 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-top: 2rem;
-  color: var(--primary-color--);
-  margin-bottom: 1rem;
-  font-family: var(--font-two--);
+  margin: 2rem 0 2rem 2rem;
+  color: var(--tertiary-color--);
+  font-family: var(--font-one--);
+  font-weight: bold;
+  font-size: 3.5rem;
 }
 
 .parent {
@@ -618,8 +617,9 @@ form a:hover {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   flex-wrap: wrap;
+  padding-top: 2rem;
 }
 
 .card-pic img {
@@ -631,11 +631,12 @@ form a:hover {
 .card-pic {
   font-family: var(--font-two--);
   width: 350px;
-  background-color: #fff;
+  background-color: var(--secondary-color--);
+  color: var(--tertiary-color--);
   overflow: hidden;
   border-radius: 1rem;
   height: auto;
-  transition: transform 0.3s;
+  transition: all 0.3s;
   border-left: 2px solid var(--primary-color--);
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
