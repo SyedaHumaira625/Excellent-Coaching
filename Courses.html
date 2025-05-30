@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-        <header style=" background-color:  #129990;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Courses.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Our Courses</title>
+  </head>
+  <body>
+    <header>
       <div class="logo">
-        <h1 class="head"><a href="#Home">Excellent Coaching</a></h1>
+        <h1 class="head"><a href="index.html">Excellent Coaching</a></h1>
       </div>
 
       <nav>
         <ul>
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#Courses">Courses</a></li>
-          <li><a href="#">Facilities</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#Faculty">Faculty</a></li>
-          <li><a href="#OurStudents">Praise </a></li>
-          <li><a href="#Help">Help</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Courses.html">Courses</a></li>
+          <li><a href="Facilities.html">Facilities</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="faculty.html">Faculty</a></li>
+          <li><a href="Ourstudents.html">Praise </a></li>
+          <li><a href="Help.html">Help</a></li>
         </ul>
       </nav>
 
       <div class="search-bar">
         <input class="srch-inp" type="search" placeholder="Type Here" />
-        <a  class="srch-btn" href="#"><button>Search</button></a>
+        <a class="srch-btn" href="#"><button>Search</button></a>
       </div>
 
       <div class="menu">
@@ -34,10 +41,41 @@
       </div>
     </header>
 
-     <section class="Courses" id="Courses">
+    <div class="menu-cont-parent">
+      <div class="menu-cont">
+        <div class="menu-div">
+          <div class="crossi">
+            <h1 class="head"><a href="#">Excellent Coaching</a></h1>
+            <i class="fa-regular fa-circle-xmark"></i>
+          </div>
+
+          <div class="menu-links">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Courses.html">Courses</a></li>
+              <li><a href="Facilities.html">Facilities</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="faculty.html">Faculty</a></li>
+              <li><a href="Ourstudents.html">Praise </a></li>
+              <li><a href="Help.html">Help</a></li>
+            </ul>
+
+            <div class="menu-search-bar">
+              <input
+                class="menu-srch-inp"
+                type="search"
+                placeholder="Type Here"
+              />
+              <a class="menu-srch-btn" href="#"><button>Search</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="Courses">
       <h1>Our Courses</h1>
 
-      
       <div class="coursesh1 courses-sect1-heading">
         <h1>Stem Fields</h1>
       </div>
@@ -132,7 +170,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="coursesh1 courses-sect1-heading">
         <h1>Arts & Humanities</h1>
       </div>
@@ -228,7 +266,7 @@
           </div>
         </div>
       </div>
-     
+
       <div class="coursesh1 courses-sect1-heading">
         <h1>Commerce and Finance</h1>
       </div>
@@ -327,7 +365,7 @@
       </div>
     </section>
 
-      <footer id="Help">
+    <footer id="Help">
       <div class="container">
         <div class="footer-column">
           <h3>Get in touch</h3>
@@ -383,5 +421,7 @@
         </p>
       </div>
     </footer>
-</body>
+
+    <script src="all.js"></script>
+  </body>
 </html>

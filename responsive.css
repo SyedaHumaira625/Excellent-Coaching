@@ -805,22 +805,6 @@
   }
 }
 
-@media (max-width: 431px) {
-  .card-info {
-    /* gap: 1.3rem; */
-  }
-
-  .cardinfo-last i {
-    font-size: 2.6rem;
-  }
-}
-
-@media (max-width: 412px) {
-  .card-info {
-    /* gap: 1.2rem; */
-  }
-}
-
 @media (max-width: 395px) {
   .loader h1 {
     font-size: 3rem;
@@ -854,14 +838,6 @@
 
   .herosect-1 button {
     padding: 0.7rem;
-  }
-
-  .cards {
-    width: 81vw;
-    height: 70vh;
-  }
-
-  .card-info {
   }
 }
 
@@ -916,38 +892,9 @@
     padding: 0.7rem;
   }
 
-  .cards {
-    height: 77vh;
-  }
-
-  .card-info {
-    /* gap: 0.9rem; */
-  }
-
   .icon-cont i,
   .icon-cont p {
     font-size: 1.1rem;
-  }
-
-  .card-info h2 {
-    font-size: 2rem;
-  }
-
-  .card-info :nth-child(3) {
-    font-size: 1.3rem;
-  }
-
-  .card-info span {
-    font-size: 0.9rem;
-  }
-
-  .cardinfo-last button {
-    font-size: 1.1rem;
-    padding: 0.6rem;
-  }
-
-  .cardinfo-last i {
-    font-size: 2rem;
   }
 }
 
@@ -989,15 +936,6 @@
     padding: 0.8rem;
   }
 
-  .card-info {
-    /* gap: 1rem; */
-  }
-
-  .cards {
-    width: 82vw;
-    height: 70vh;
-  }
-
   .menu-srch-inp {
     width: 57vw;
   }
@@ -1014,18 +952,6 @@
 
   .herosect-1 {
     gap: 1rem;
-  }
-
-  .card-info {
-    /* gap: 1.3rem; */
-  }
-
-  .cards {
-    height: 70vh;
-  }
-
-  .card-info h2 {
-    font-size: 4rem;
   }
 }
 
@@ -1072,26 +998,6 @@
     font-size: 1.2rem;
     padding: 0.6rem;
     width: 50%;
-  }
-
-  .card-info {
-    /* gap: 0.7rem; */
-  }
-
-  .card-info h2 {
-    font-size: 1.8rem;
-  }
-
-  .card-info span p {
-    font-size: 1.5rem;
-  }
-
-  .cardinfo-last button {
-    padding: 0.4rem;
-  }
-
-  .cardinfo-last i {
-    font-size: 1.9em;
   }
 }
 
@@ -1152,63 +1058,9 @@
   .herosect-1 button {
     width: 44%;
   }
-
-  .cards {
-    height: 62vh;
-    width: 84vw;
-  }
-
-  .card-info {
-    /* gap: 1rem; */
-  }
-
-  .icon-cont i,
-  .icon-cont p {
-    font-size: 1.2rem;
-  }
-
-  .card-info span {
-    font-size: 1.1rem;
-  }
-
-  .card-info span p {
-    font-size: 1.7rem;
-  }
-
-  .cardinfo-last button {
-    font-size: 1.5rem;
-  }
-
-  .cardinfo-last i {
-    font-size: 2.1rem;
-  }
 }
 
 @media (max-width: 768px) {
-  .card-pic img {
-    height: 40vw;
-  }
-
-  .card {
-    max-width: 100%;
-  }
-
-  .card-image {
-    height: 180px;
-  }
-
-  .card-information h1 {
-    font-size: 1.2rem;
-  }
-
-  .card-information h4 {
-    font-size: 0.95rem;
-  }
-
-  .card-information p {
-    font-size: 0.85rem;
-  }
-
   footer {
     height: auto;
     padding: 1rem 0.5rem;
@@ -1247,36 +1099,5 @@
 
   .social-icons i {
     font: size 1.4em;
-  }
-}
-
-@media (max-width: 480px) {
-  .card-pic img {
-    height: 60vw;
-  }
-
-  .teacherintro-sec {
-    padding: 2rem 1rem;
-  }
-
-  .card-image {
-    height: 150px;
-  }
-
-  .card-information h1 {
-    font-size: 1.1rem;
-  }
-
-  .card-information h4 {
-    font-size: 0.9rem;
-  }
-
-  .card-information p {
-    font-size: 0.8rem;
-  }
-}
-@media (max-width: 1100) {
-  .Our-students h1 {
-    margin-bottom: 1.2rem;
   }
 }
