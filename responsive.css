@@ -56,6 +56,7 @@
   .card-info {
     display: flex;
     flex-direction: column;
+    /* gap: 1.5rem; */
     /* padding: 1rem; */
   }
 
@@ -233,6 +234,7 @@
   }
 
   .card-info {
+    /* gap: 1.8rem; */
     /* padding: 1rem; */
   }
 
@@ -344,6 +346,7 @@
   }
 
   .card-info {
+    /* gap: 0.9rem; */
   }
 
   .icon-cont i,
@@ -460,6 +463,7 @@
   }
 
   .card-info {
+    /* gap: 1.5rem; */
     /* padding: 1rem; */
   }
 
@@ -552,6 +556,7 @@
   }
 
   .card-info {
+    /* gap: 1.5rem; */
   }
 
   .card-info h2 {
@@ -638,6 +643,7 @@
   }
 
   .card-info {
+    /* gap: 0.9rem; */
   }
 
   .icon-cont i,
@@ -766,6 +772,7 @@
   }
 
   .card-info {
+    /* gap: 1rem; */
   }
 
   .icon-cont i,
@@ -800,6 +807,7 @@
 
 @media (max-width: 431px) {
   .card-info {
+    /* gap: 1.3rem; */
   }
 
   .cardinfo-last i {
@@ -809,6 +817,7 @@
 
 @media (max-width: 412px) {
   .card-info {
+    /* gap: 1.2rem; */
   }
 }
 
@@ -912,7 +921,7 @@
   }
 
   .card-info {
-    gap: 0.9rem;
+    /* gap: 0.9rem; */
   }
 
   .icon-cont i,
@@ -981,6 +990,7 @@
   }
 
   .card-info {
+    /* gap: 1rem; */
   }
 
   .cards {
@@ -1007,6 +1017,7 @@
   }
 
   .card-info {
+    /* gap: 1.3rem; */
   }
 
   .cards {
@@ -1064,7 +1075,7 @@
   }
 
   .card-info {
-    gap: 0.7rem;
+    /* gap: 0.7rem; */
   }
 
   .card-info h2 {
@@ -1148,6 +1159,7 @@
   }
 
   .card-info {
+    /* gap: 1rem; */
   }
 
   .icon-cont i,
