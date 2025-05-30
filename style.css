@@ -26,7 +26,7 @@ body {
   --tertiary-color--: #333333;
 }
 /* Loader Start */
-/* .loader {
+.loader {
   height: 100%;
   width: 100%;
   background-color: var(--primary-color--);
@@ -41,7 +41,7 @@ body {
 }
 
 .loader h1 {
-  font-size: 4.5rem;
+  font-size: 4.3rem;
   font-family: "Montserrat", sans-serif;
   opacity: 0;
   position: absolute;
@@ -76,7 +76,7 @@ body {
   100% {
     opacity: 0;
   }
-} */
+}
 /* Loader End */
 
 /* Header Start */
@@ -517,7 +517,7 @@ form a:hover {
   flex-direction: column;
   justify-content: space-between;
   /* gap: 0.3rem; */
-  padding: 1rem 1rem 0.8rem 1rem;
+  padding: 1rem 1rem 0.7rem 1rem;
   height: 53%;
 }
 
@@ -600,10 +600,8 @@ form a:hover {
 /* Our Students Section Start */
 
 .Our-students {
-  height: 100vh;
   display: flex;
   flex-direction: column;
-
 }
 
 .Our-students h1 {
@@ -616,7 +614,6 @@ form a:hover {
 
 .parent {
   display: flex;
-  height: 100vh;
   justify-content: center;
   align-items: center;
   gap: 2rem;
@@ -659,3 +656,162 @@ form a:hover {
 }
 
 /* Our Students Section End */
+
+/* Teachers Intorduction Section Start */
+
+.teacherintro-sec h1 {
+  padding: 4rem 3rem 0rem 3rem;
+  font-family: var(--font-one--);
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: var(--tertiary-color--);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+}
+
+.card {
+  flex: 1 1 300px;
+  max-width: 350px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-color--);
+  box-shadow: 2px 2px 15px 4px rgb(0, 0, 0, 0.5);
+}
+
+.card-image {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.card-information {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: smaller;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.card-information h1 {
+  font-size: 1.4rem;
+  font-variant: var(--font-one--);
+}
+
+.card-information h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: var(--font-one--);
+}
+
+.card-information p {
+  font-size: 0.9rem;
+  text-align: justify;
+  line-height: 1.4;
+  font-family: var(--font-two--);
+}
+
+/* Teachers Intorduction Section End */
+
+/* Footer Start */
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: var(--primary-color--);
+  margin: 10px 0;
+  padding: 1rem;
+  line-height: 1.8;
+  font-family: var(--font-two--);
+}
+.container {
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  text-decoration: none;
+  color: var(--secondary-color--);
+}
+
+.footer-column {
+  border-right: 1px solid var(--secondary-color--);
+  width: 23%;
+  height: auto;
+  display: flex;
+  font-size: 1rem;
+  line-height: 2rem;
+  text-decoration: none;
+  flex-direction: column;
+}
+
+.footer-column a {
+  padding: 4px 0;
+  line-height: 1.8;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--secondary-color--);
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.footer-column h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.footer-bottom {
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.footer-bottom p {
+  color: var(--secondary-color--);
+}
+
+
+.footer-bottom a {
+  text-decoration: none;
+  color: var(--secondary-color--);
+}
+
+.social-icons {
+  color: var(--secondary-color--);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 0.5rem 1rem 0.4rem;
+}
+
+.social-icons i {
+  font-size: 1.6rem;
+}
+
+.social-icons i:hover {
+  color: black;
+}
+
+/* Footer End */

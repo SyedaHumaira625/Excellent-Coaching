@@ -1172,23 +1172,99 @@
   }
 }
 
-
 @media (max-width: 768px) {
-            .card-pic img {
-                height: 40vw;
-            }
-        }
+  .card-pic img {
+    height: 40vw;
+  }
 
-        @media (max-width: 480px) {
-            .card-pic img {
-                height: 60vw;
-            }
+  .card {
+    max-width: 100%;
+  }
 
-        }
-        @media (max-width:1100){
-            .Our-students h1{
-                margin-bottom: 1.2rem;
-                
-            }
-        }
-        
+  .card-image {
+    height: 180px;
+  }
+
+  .card-information h1 {
+    font-size: 1.2rem;
+  }
+
+  .card-information h4 {
+    font-size: 0.95rem;
+  }
+
+  .card-information p {
+    font-size: 0.85rem;
+  }
+
+  footer {
+    height: auto;
+    padding: 1rem 0.5rem;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-right: none;
+    border-bottom: 1px solid white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column a {
+    text-align: center;
+    padding: 8px 0;
+  }
+
+  .footer-bottom {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .social-icons {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .social-icons i {
+    font: size 1.4em;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-pic img {
+    height: 60vw;
+  }
+
+  .teacherintro-sec {
+    padding: 2rem 1rem;
+  }
+
+  .card-image {
+    height: 150px;
+  }
+
+  .card-information h1 {
+    font-size: 1.1rem;
+  }
+
+  .card-information h4 {
+    font-size: 0.9rem;
+  }
+
+  .card-information p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 1100) {
+  .Our-students h1 {
+    margin-bottom: 1.2rem;
+  }
+}
