@@ -485,7 +485,7 @@ form a:hover {
 }
 
 .cards {
-  height: 71vh;
+  height: 30rem;
   width: 20vw;
   box-shadow: 2px 2px 20px 4px rgb(0, 0, 0, 0.3);
   color: var(--tertiary-color--);
@@ -798,7 +798,7 @@ p {
   margin-bottom: 30px;
   color: #091c1f;
 }
-.contact-page input[type="text"] {
+/* .contact-page input[type="text"] {
   width: 100%;
   padding: 12px 15px;
   margin-bottom: 20px;
@@ -806,7 +806,7 @@ p {
   border-radius: 6px;
   font-size: 16px;
   box-sizing: border-box;
-}
+} */
 .contact-page input[type="text"]:focus {
   border-color: #959995;
   outline: none;
