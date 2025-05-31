@@ -25,11 +25,12 @@ body {
   --secondary-color--: #f5f5f5;
   --tertiary-color--: #333333;
 }
+
 /* Loader Start */
 .loader {
   height: 100%;
   width: 100%;
-  background-color: var(--primary-color--);
+  background-color: var(--tertiary-color--);
   color: white;
   position: fixed;
   z-index: 9999;
@@ -295,7 +296,7 @@ nav ul li a {
 
 .Hero-section::before {
   content: "";
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   position: absolute;
   top: -15%;
@@ -307,7 +308,7 @@ nav ul li a {
 
 .Hero-section::after {
   content: "";
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
   position: absolute;
   top: -15%;
@@ -462,8 +463,8 @@ footer {
   width: 100%;
   height: auto;
   background-color: var(--primary-color--);
-  margin: 10px 0;
   padding: 1rem;
+  margin-top: 10px;
   line-height: 1.8;
   font-family: var(--font-two--);
 }
@@ -541,3 +542,772 @@ footer {
 }
 
 /* Footer End */
+
+/* Sections Responsiveness Start */
+
+@media (min-width: 1208px) {
+  nav ul li a {
+    font-size: 1.2rem;
+  }
+
+  .herosect-1 h2 {
+    font-size: 3rem;
+  }
+
+  .herosect-1 p {
+    font-size: 1.4rem;
+    width: 50vw;
+    line-height: 2rem;
+  }
+
+  .herosect-1 button {
+    font-size: 1.8rem;
+    padding: 1rem;
+  }
+
+  .herosect-2 {
+    padding: 0rem 4rem 9rem 4rem;
+  }
+
+  form {
+    height: 64vh;
+    width: 25vw;
+    padding: 1rem;
+    gap: 2.5rem;
+  }
+
+  form input {
+    width: 21vw;
+  }
+
+  .label {
+    font-size: 1.4rem;
+    top: -16px;
+  }
+
+  form input:focus + .label {
+    top: -29px;
+    font-size: 1rem;
+  }
+
+  form button {
+    font-size: 1.4rem;
+    padding: 0.9rem;
+  }
+
+  .formlink-cont p,
+  .formlink-cont a {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .loader h1 {
+    font-size: 5rem;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .search-bar {
+    display: none;
+  }
+
+  form {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .menu-cont-parent {
+    display: block;
+    height: 70vh;
+  }
+
+  .menu-div {
+    border: 1px solid #000;
+    width: 70%;
+  }
+
+  .menu-links {
+    padding: 0.5rem 2rem 1.5rem 2rem;
+  }
+
+  .menu-links ul {
+    gap: 3rem;
+  }
+
+  .menu-links ul li a {
+    font-size: 2.3rem;
+  }
+
+  .menu-srch-btn button {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .menu-srch-inp {
+    font-size: 2rem;
+    padding: 1rem;
+    width: 76%;
+  }
+
+  header {
+    height: 11vh;
+  }
+
+  .logo h1 a,
+  .menu a i,
+  .crossi h1 a,
+  .crossi i {
+    font-size: 3rem;
+  }
+
+  .Hero-section::before {
+    background-position: center;
+  }
+
+  .herosect-1 {
+    padding: 9rem 4rem 6rem 4rem;
+    gap: 2rem;
+  }
+
+  .herosect-1 h2 {
+    width: 80vw;
+
+    font-size: 3.1rem;
+  }
+
+  .herosect-1 p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    width: 80vw;
+  }
+
+  .herosect-1 button {
+    font-size: 2.4rem;
+    padding: 1.3rem;
+    width: 45%;
+  }
+}
+
+@media (max-width: 1024px) and (max-height: 600px) {
+  header {
+    height: 15vh;
+  }
+
+  .menu-cont-parent {
+    height: 97vh;
+  }
+
+  .menu-links {
+    padding: 0.5rem 2rem 0rem 2rem;
+  }
+
+  .menu-links ul {
+    gap: 1.8rem;
+  }
+
+  .menu-links ul li a {
+    font-size: 1.5rem;
+  }
+
+  .menu-srch-btn button {
+    font-size: 1.5rem;
+    padding: 0.8rem;
+  }
+
+  .menu-srch-inp {
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    width: 85%;
+  }
+
+  .logo h1 a,
+  .crossi h1 a {
+    font-size: 2rem;
+  }
+
+  .menu a i,
+  .crossi i {
+    font-size: 2rem;
+  }
+
+  .herosect-1 {
+    padding: 4rem 4rem 8rem 4rem;
+    gap: 1.2rem;
+  }
+
+  .herosect-1 h2 {
+    font-size: 2.3rem;
+  }
+
+  .herosect-1 p {
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+  }
+
+  .herosect-1 button {
+    font-size: 1.8rem;
+    width: 29%;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 821px) {
+  .menu-cont-parent {
+    height: 75vh;
+  }
+
+  .menu-div {
+    width: 80%;
+  }
+
+  header {
+    height: 11vh;
+  }
+
+  .logo h1 a,
+  .crossi h1 a {
+    font-size: 2.6rem;
+  }
+
+  .menu a i,
+  .crossi i {
+    font-size: 2.6rem;
+  }
+
+  .menu-links {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+  }
+
+  .menu-links ul {
+    gap: 3.2rem;
+  }
+
+  .menu-links ul li a {
+    font-size: 2rem;
+  }
+
+  .menu-srch-inp {
+    font-size: 1.8rem;
+    width: 52vw;
+    padding: 1rem;
+  }
+
+  .menu-srch-btn button {
+    font-size: 1.8rem;
+    padding: 1rem;
+  }
+
+  .Hero-section::before {
+    background-position: center;
+  }
+
+  .herosect-1 {
+    padding: 7rem 4rem 7rem 4rem;
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+
+  .herosect-1 h2 {
+    width: 50vw;
+    font-size: 2.9rem;
+  }
+
+  .herosect-1 p {
+    width: 80vw;
+    font-size: 1.89rem;
+    line-height: 2.29rem;
+  }
+
+  .herosect-1 button {
+    font-size: 2.2rem;
+    padding: 1.2rem 2rem;
+    width: 50%;
+  }
+}
+
+@media (max-width: 769px) {
+  .logo h1 a,
+  .menu a i,
+  .crossi h1 a,
+  .crossi i {
+    font-size: 2.4rem;
+  }
+
+  .menu-cont-parent {
+    height: 78vh;
+  }
+
+  .menu-links {
+    padding: 0.5rem 2rem 0rem 2rem;
+  }
+
+  .menu-links ul {
+    gap: 3rem;
+  }
+
+  .menu-links ul li a {
+    font-size: 1.8rem;
+  }
+
+  .menu-srch-btn button,
+  .menu-srch-inp {
+    font-size: 1.5rem;
+    padding: 1.1rem;
+  }
+
+  .herosect-1 {
+    gap: 1.2rem;
+  }
+
+  .herosect-1 h2 {
+    width: 80vw;
+    font-size: 2.5rem;
+  }
+
+  .herosect-1 p {
+    font-size: 1.5rem;
+  }
+
+  .herosect-1 button {
+    padding: 1rem;
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 541px) {
+  .loader h1 {
+    font-size: 3.5rem;
+  }
+
+  .crossi {
+    padding: 1.4rem;
+  }
+
+  .logo h1 a,
+  .crossi h1 a {
+    font-size: 1.7rem;
+  }
+
+  .menu a i,
+  .crossi i {
+    font-size: 1.6rem;
+  }
+
+  .menu-links {
+    padding: 0.5rem 2rem 0rem 1.4rem;
+  }
+
+  .menu-links ul {
+    gap: 1.7rem;
+  }
+
+  .menu-links ul li a {
+    font-size: 1.3rem;
+  }
+
+  .menu-srch-btn button {
+    font-size: 1.1rem;
+    padding: 0.8rem;
+  }
+
+  .menu-srch-inp {
+    font-size: 1.1rem;
+    padding: 0.8rem;
+    width: 76%;
+  }
+
+  .herosect-1 {
+    padding: 3rem 2rem 8rem 2rem;
+    gap: 1rem;
+  }
+
+  .herosect-1 h2 {
+    font-size: 1.8rem;
+  }
+
+  .herosect-1 p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+
+  .herosect-1 button {
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    width: 41%;
+  }
+}
+
+@media (max-width: 438px) {
+  .loader h1 {
+    font-size: 3.4rem;
+  }
+
+  header {
+    height: 9vh;
+  }
+
+  .menu-cont-parent {
+    height: 69vh;
+  }
+
+  .menu-div {
+    width: 85%;
+  }
+
+  .crossi {
+    padding: 0.9rem;
+  }
+
+  .menu-links {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+
+  .menu-links ul li a {
+    font-size: 1.4rem;
+  }
+
+  .menu-links ul {
+    gap: 2.1rem;
+  }
+
+  .logo h1 a,
+  .crossi h1 a {
+    font-size: 1.9rem;
+  }
+
+  .menu a i,
+  .crossi i {
+    font-size: 1.8rem;
+  }
+
+  .menu-srch-inp {
+    width: 68%;
+    font-size: 1.3rem;
+  }
+
+  .menu-srch-btn button {
+    font-size: 1.3rem;
+  }
+
+  .herosect-1 {
+    padding: 3rem 2rem 3rem 1.5rem;
+    gap: 1rem;
+  }
+
+  .herosect-1 h2 {
+    font-size: 1.8rem;
+    width: 78vw;
+  }
+
+  .herosect-1 p {
+    width: 88vw;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+  }
+
+  .herosect-1 button {
+    width: 55%;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 395px) {
+  .loader h1 {
+    font-size: 3rem;
+  }
+
+  .menu-cont-parent {
+    height: 70vh;
+  }
+
+  .logo h1 a,
+  .crossi h1 a {
+    font-size: 1.7rem;
+  }
+
+  .menu a i,
+  .crossi i {
+    font-size: 1.5rem;
+  }
+
+  .menu-links {
+    padding: 0.5rem 2rem 0.5rem 1rem;
+  }
+
+  .menu-links ul {
+    gap: 1.9rem;
+  }
+
+  .herosect-1 p {
+    font-size: 1.2rem;
+  }
+
+  .herosect-1 button {
+    padding: 0.7rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .menu-cont-parent {
+    height: 70vh;
+  }
+
+  .menu-links ul {
+    gap: 1.3rem;
+  }
+
+  .menu-links ul li a {
+    font-size: 1.1rem;
+  }
+
+  .menu-srch-inp {
+    font-size: 1.1rem;
+    width: 80%;
+    padding: 0.7rem;
+  }
+
+  .menu-srch-btn button {
+    font-size: 1.1rem;
+    padding: 0.7rem;
+  }
+
+  .logo h1 a {
+    font-size: 1.5rem;
+  }
+
+  .crossi h1 a {
+    font-size: 1.5rem;
+  }
+
+  .menu a i,
+  .crossi i {
+    font-size: 1.5rem;
+  }
+
+  .herosect-1 h2 {
+    font-size: 1.6rem;
+  }
+
+  .herosect-1 p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+
+  .herosect-1 button {
+    font-size: 1.2rem;
+    padding: 0.7rem;
+  }
+}
+
+@media screen and (width: 360px) and (height: 740px) {
+  .menu-cont-parent {
+    height: 66vh;
+  }
+
+  .logo h1 a,
+  .menu a i,
+  .crossi h1 a,
+  .crossi i {
+    font-size: 1.6rem;
+  }
+
+  .menu-div {
+    width: 90%;
+  }
+
+  .menu-links ul {
+    gap: 1.4rem;
+  }
+
+  .menu-links ul li a {
+    font-size: 1.3rem;
+  }
+
+  .herosect-1 h2 {
+    font-size: 1.6rem;
+  }
+
+  .herosect-1 p {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+
+  .herosect-1 button {
+    width: 46%;
+    padding: 0.8rem;
+  }
+
+  .menu-srch-inp {
+    width: 57vw;
+  }
+}
+
+@media screen and (min-width: 850px) and (max-width: 855px) {
+  .menu-cont-parent {
+    height: 70vh;
+  }
+
+  .menu-links {
+    padding: 0.5rem 2rem 0.8rem 2rem;
+  }
+
+  .herosect-1 {
+    gap: 1rem;
+  }
+}
+
+@media screen and (width: 360px) and (height: 640px) {
+  .loader h1 {
+    font-size: 2.9rem;
+  }
+
+  .menu-cont-parent {
+    height: 68vh;
+  }
+
+  .menu-links ul {
+    gap: 1.1rem;
+  }
+
+  .menu-links ul li a {
+    font-size: 1.1rem;
+  }
+
+  .menu-srch-btn button,
+  .menu-srch-inp {
+    font-size: 1rem;
+  }
+
+  .logo h1 a,
+  .menu a i {
+    font-size: 1.5rem;
+  }
+
+  .herosect-1 {
+    gap: 0.7rem;
+  }
+
+  .herosect-1 h2 {
+    font-size: 1.4rem;
+  }
+
+  .herosect-1 p {
+    font-size: 1rem;
+  }
+
+  .herosect-1 button {
+    font-size: 1.2rem;
+    padding: 0.6rem;
+    width: 50%;
+  }
+}
+
+@media (max-width: 345px) {
+  .loader h1 {
+    font-size: 2.8rem;
+  }
+
+  .menu-cont-parent {
+    height: 66vh;
+  }
+
+  .menu-div {
+    width: 100%;
+  }
+
+  .crossi {
+    padding: 0.8rem 1rem;
+  }
+
+  .menu-links {
+    padding: 0.5rem 2rem 1.5rem 1rem;
+  }
+
+  .menu-links ul {
+    gap: 1.8rem;
+  }
+
+  .menu-links ul li a {
+    font-size: 1.4rem;
+  }
+
+  .menu-srch-inp {
+    width: 84%;
+    padding: 0.7rem;
+  }
+
+  .menu-srch-btn button {
+    padding: 0.7rem;
+  }
+
+  .logo h1 a,
+  .menu a i,
+  .crossi h1 a,
+  .crossi i {
+    font-size: 1.6rem;
+  }
+
+  .herosect-1 h2 {
+    font-size: 1.7rem;
+  }
+
+  .herosect-1 p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  .herosect-1 button {
+    width: 44%;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    height: auto;
+    padding: 1rem 0.5rem;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-right: none;
+    border-bottom: 1px solid white;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column a {
+    text-align: center;
+    padding: 8px 0;
+  }
+
+  .footer-bottom {
+    font-size: 14px;
+    padding: 15px;
+  }
+
+  .social-icons {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .social-icons i {
+    font: size 1.4em;
+  }
+}
+
+/* Sections Responsiveness End */

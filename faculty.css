@@ -33,12 +33,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 1.5rem;
-  height: 15vh;
+  height: 13vh;
   width: 100%;
   background-color: var(--primary-color--);
 }
-
-
 
 .logo h1 a {
   text-decoration: none;
@@ -94,7 +92,7 @@ nav ul li a {
   font-family: var(--font-one--);
   font-size: 1.1vw;
   cursor: pointer;
-  border-left: var(--primary-color--);
+  border-left: 1px solid var(--primary-color--);
 }
 
 .menu {
@@ -224,11 +222,10 @@ nav ul li a {
 
 /* Header End */
 
-
 /* Teachers Intorduction Section Start */
 
 .teacherintro-sec h1 {
-  padding: 4rem 3rem 0rem 3rem;
+  padding: 2.5rem 3rem 0rem 3rem;
   font-family: var(--font-one--);
   font-weight: bold;
   font-size: 3.5rem;
@@ -240,7 +237,7 @@ nav ul li a {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
 }
 
 .card {
@@ -297,14 +294,13 @@ nav ul li a {
 
 /* Teachers Intorduction Section End */
 
-
 /* Footer Start */
 
 footer {
   width: 100%;
   height: auto;
   background-color: var(--primary-color--);
-  margin: 10px 0;
+  margin-top: 10px;
   padding: 1rem;
   line-height: 1.8;
   font-family: var(--font-two--);
@@ -362,7 +358,6 @@ footer {
   color: var(--secondary-color--);
 }
 
-
 .footer-bottom a {
   text-decoration: none;
   color: var(--secondary-color--);
@@ -385,8 +380,7 @@ footer {
 
 /* Footer End */
 
-
-/* Responsiveness Start */
+/* Sections Responsiveness Start */
 
 @media (min-width: 1208px) {
   nav ul li a {
@@ -398,7 +392,6 @@ footer {
   nav ul li a {
     font-size: 1.2rem;
   }
-
 }
 
 @media (max-width: 1024px) {
@@ -407,10 +400,6 @@ footer {
   }
 
   .search-bar {
-    display: none;
-  }
-
-  form {
     display: none;
   }
 
@@ -461,8 +450,6 @@ footer {
   .crossi i {
     font-size: 3rem;
   }
-
-
 }
 
 @media (max-width: 1024px) and (max-height: 600px) {
@@ -506,7 +493,6 @@ footer {
   .crossi i {
     font-size: 2rem;
   }
-
 }
 
 @media (max-width: 821px) {
@@ -554,7 +540,6 @@ footer {
     font-size: 1.8rem;
     padding: 1rem;
   }
-
 }
 
 @media (max-width: 769px) {
@@ -587,25 +572,25 @@ footer {
     padding: 1.1rem;
   }
 
-    .card {
-        max-width: 100%;
-    }
+  .card {
+    max-width: 100%;
+  }
 
-    .card-image {
-        height: 180px;
-    }
+  .card-image {
+    height: 180px;
+  }
 
-    .card-information h1 {
-        font-size: 1.2rem;
-    }
+  .card-information h1 {
+    font-size: 1.2rem;
+  }
 
-    .card-information h4 {
-        font-size: 0.95rem;
-    }
+  .card-information h4 {
+    font-size: 0.95rem;
+  }
 
-    .card-information p {
-        font-size: 0.85rem;
-    }
+  .card-information p {
+    font-size: 0.85rem;
+  }
 
   footer {
     height: auto;
@@ -737,27 +722,26 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .teacherintro-sec {
-        padding: 2rem 1rem;
-    }
+  .teacherintro-sec {
+    padding: 2rem 1rem;
+  }
 
-    .card-image {
-        height: 150px;
-    }
+  .card-image {
+    height: 150px;
+  }
 
-    .card-information h1 {
-        font-size: 1.1rem;
-    }
+  .card-information h1 {
+    font-size: 1.1rem;
+  }
 
-    .card-information h4 {
-        font-size: 0.9rem;
-    }
+  .card-information h4 {
+    font-size: 0.9rem;
+  }
 
-    .card-information p {
-        font-size: 0.8rem;
-    }
+  .card-information p {
+    font-size: 0.8rem;
+  }
 }
-
 
 @media (max-width: 395px) {
   .menu-cont-parent {
@@ -781,9 +765,6 @@ footer {
   .menu-links ul {
     gap: 1.9rem;
   }
-
-
-
 }
 
 @media (max-width: 376px) {
@@ -822,8 +803,6 @@ footer {
   .crossi i {
     font-size: 1.5rem;
   }
-
-
 }
 
 @media screen and (width: 360px) and (height: 740px) {
@@ -857,13 +836,12 @@ footer {
 
 @media screen and (min-width: 850px) and (max-width: 855px) {
   .menu-cont-parent {
-    height: 7vh;
+    height: 70vh;
   }
 
   .menu-links {
     padding: 0.5rem 2rem 0.8rem 2rem;
   }
-
 }
 
 @media screen and (width: 360px) and (height: 640px) {
@@ -888,7 +866,6 @@ footer {
   .menu a i {
     font-size: 1.5rem;
   }
-
 }
 
 @media (max-width: 345px) {
@@ -931,11 +908,6 @@ footer {
   .crossi i {
     font-size: 1.6rem;
   }
-
 }
 
-
-
-
-
-  /* Responsiveness End */
+/* Sections Responsiveness End */

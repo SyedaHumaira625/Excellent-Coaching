@@ -33,7 +33,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 1.5rem;
-  height: 15vh;
+  height: 13vh;
   width: 100%;
   background-color: var(--primary-color--);
 }
@@ -227,10 +227,11 @@ nav ul li a {
 .Our-students {
   display: flex;
   flex-direction: column;
+  padding-bottom: 2rem;
 }
 
 .Our-students h1 {
-  margin: 1rem 0 2rem 2rem;
+  margin: 1.5rem 0 2rem 2rem;
   color: var(--tertiary-color--);
   font-family: var(--font-one--);
   font-weight: bold;
@@ -282,14 +283,13 @@ nav ul li a {
 
 /* Our Students Section End */
 
-
 /* Footer Start */
 
 footer {
   width: 100%;
   height: auto;
   background-color: var(--primary-color--);
-  margin: 10px 0;
+  margin-top: 10px;
   padding: 1rem;
   line-height: 1.8;
   font-family: var(--font-two--);
@@ -369,7 +369,7 @@ footer {
 
 /* Footer End */
 
-/* Responsiveness Start */
+/* Sections Responsiveness Start */
 
 @media (min-width: 1208px) {
   nav ul li a {
@@ -395,10 +395,6 @@ footer {
   }
 
   .search-bar {
-    display: none;
-  }
-
-  form {
     display: none;
   }
 
@@ -656,10 +652,9 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .card-pic img {
+  .card-pic img {
     height: 60vw;
   }
-
 }
 
 @media (max-width: 438px) {
@@ -804,7 +799,7 @@ footer {
 
 @media screen and (min-width: 850px) and (max-width: 855px) {
   .menu-cont-parent {
-    height: 7vh;
+    height: 70vh;
   }
 
   .menu-links {
@@ -878,4 +873,4 @@ footer {
   }
 }
 
-/* Responsiveness End */
+/* Sections Responsiveness End */

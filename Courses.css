@@ -33,7 +33,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 1.5rem;
-  height: 15vh;
+  height: 13vh;
   width: 100%;
   background-color: var(--primary-color--);
 }
@@ -230,15 +230,16 @@ nav ul li a {
 }
 
 .Courses h1 {
-  font-size: 4.2rem;
+  font-size: 4.1rem;
   font-weight: bold;
   font-family: var(--font-one--);
   color: var(--tertiary-color--);
-  padding: 2rem 2rem 0rem 1rem;
+  padding-top: 2rem;
 }
 
 .coursesh1 h1 {
   font-size: 3.5rem;
+  padding-top: 0.1rem;
   font-family: var(--font-one--);
   color: var(--tertiary-color--);
 }
@@ -285,7 +286,6 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* gap: 0.3rem; */
   padding: 1rem 1rem 0.7rem 1rem;
   height: 53%;
 }
@@ -354,7 +354,6 @@ nav ul li a {
 
 .cardinfo-last button:hover {
   cursor: pointer;
-  transform: scale(1.1);
 }
 
 .cardinfo-last i {
@@ -372,7 +371,7 @@ footer {
   width: 100%;
   height: auto;
   background-color: var(--primary-color--);
-  margin: 10px 0;
+  margin-top: 10px;
   padding: 1rem;
   line-height: 1.8;
   font-family: var(--font-two--);
@@ -452,7 +451,7 @@ footer {
 
 /* Footer End */
 
-/* Responsiveness Start */
+/* Sections Responsiveness Start */
 
 @media (min-width: 1208px) {
   nav ul li a {
@@ -545,10 +544,6 @@ footer {
     display: none;
   }
 
-  form {
-    display: none;
-  }
-
   .menu {
     display: block;
   }
@@ -603,6 +598,7 @@ footer {
   }
 
   .cards {
+    height: 60rem;
     width: 70vw;
   }
 
@@ -776,6 +772,7 @@ footer {
   }
 
   .cards {
+    height: 55rem;
     width: 70vw;
   }
 
@@ -1210,7 +1207,7 @@ footer {
 
 @media screen and (min-width: 850px) and (max-width: 855px) {
   .menu-cont-parent {
-    height: 7vh;
+    height: 70vh;
   }
 
   .menu-links {
@@ -1356,4 +1353,4 @@ footer {
   }
 }
 
-/* Responsiveness End */
+/* Sections Responsiveness End */
