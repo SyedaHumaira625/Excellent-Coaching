@@ -130,6 +130,13 @@ nav ul li a {
   font-family: var(--font-one--);
   font-weight: 500;
   font-size: 1rem;
+  border: 2px solid transparent;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: var(--secondary-color--);
+  border: 1px solid transparent;
 }
 
 .search-bar {
