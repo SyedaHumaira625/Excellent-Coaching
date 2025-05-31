@@ -206,7 +206,6 @@ nav ul li a:hover {
   z-index: 16;
   width: 50%;
   background-color: var(--primary-color--);
-  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
 }
 
 .crossi h1 a {
