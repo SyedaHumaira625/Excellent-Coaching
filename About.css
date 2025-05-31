@@ -363,6 +363,7 @@ footer {
   line-height: 1.8;
   font-family: var(--font-two--);
 }
+
 .container {
   width: 100%;
   flex-wrap: wrap;
@@ -472,7 +473,6 @@ footer {
   }
 
   .menu-div {
-    border: 1px solid #000;
     width: 70%;
   }
 
