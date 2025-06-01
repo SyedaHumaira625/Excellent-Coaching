@@ -262,7 +262,7 @@ nav ul li a:hover {
 
 .ques-box {
   font-family: var(--font-one--);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--tertiary-color--);
   display: flex;
   justify-content: space-between;
