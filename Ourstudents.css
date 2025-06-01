@@ -424,7 +424,6 @@ footer {
     padding: 0.5rem 2rem 1.5rem 2rem;
   }
 
-  
   .menu-links ul li a {
     font-size: 2.1rem;
   }
@@ -465,7 +464,6 @@ footer {
     padding: 0.5rem 2rem 0rem 2rem;
   }
 
-  
   .menu-links ul li a {
     font-size: 1.3rem;
   }
@@ -519,7 +517,6 @@ footer {
     padding: 0.5rem 2rem 0.5rem 2rem;
   }
 
-  
   .menu-links ul li a {
     font-size: 1.9rem;
   }
@@ -552,7 +549,6 @@ footer {
     padding: 0.5rem 2rem 0rem 2rem;
   }
 
-  
   .menu-links ul li a {
     font-size: 1.6rem;
   }
@@ -627,7 +623,6 @@ footer {
     padding: 0.5rem 2rem 0rem 1.4rem;
   }
 
-  
   .menu-links ul li a {
     font-size: 1.2rem;
   }
@@ -675,7 +670,6 @@ footer {
     font-size: 1.3rem;
   }
 
-  
   .logo h1 a,
   .crossi h1 a {
     font-size: 1.9rem;
@@ -714,8 +708,6 @@ footer {
   .menu-links {
     padding: 0.5rem 2rem 0.5rem 1rem;
   }
-
-  
 }
 
 @media (max-width: 376px) {
@@ -723,7 +715,6 @@ footer {
     height: 70vh;
   }
 
-  
   .menu-links ul li a {
     font-size: 1rem;
   }
@@ -769,7 +760,6 @@ footer {
     width: 90%;
   }
 
-  
   .menu-links ul li a {
     font-size: 1.3rem;
   }
@@ -794,7 +784,6 @@ footer {
     height: 68vh;
   }
 
-  
   .menu-links ul li a {
     font-size: 1rem;
   }
@@ -827,7 +816,6 @@ footer {
     padding: 0.5rem 2rem 1.5rem 1rem;
   }
 
-  
   .menu-links ul li a {
     font-size: 1.2rem;
   }
