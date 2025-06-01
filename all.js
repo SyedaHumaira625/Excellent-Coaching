@@ -20,11 +20,12 @@ QAcont.forEach(function (QAparent) {
 
   let answerone = QAparent.querySelectorAll(".answer");
 
-
   dropicon.addEventListener("click", function () {
-    answerone.forEach(function(ans) {
+    answerone.forEach(function (ans) {
       ans.classList.toggle("close");
-    }) 
+    });
     dropicon.classList.toggle("fa-xmark");
   });
 });
+
+// Faq Section End

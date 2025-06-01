@@ -188,7 +188,6 @@ nav ul li a:hover {
   justify-content: space-evenly;
   padding-top: 0rem;
   height: 80%;
-
 }
 
 .menu-links ul li a {
@@ -232,7 +231,6 @@ nav ul li a:hover {
 
 /* Header End */
 
-
 /* Faq Section Start */
 
 .faq-sect {
@@ -273,15 +271,9 @@ nav ul li a:hover {
 }
 
 .ques-box i {
-    font-size: 1.6rem;
-    color: var(--primary-color--);
-    border: 2px solid transparent;
-}
-
-.ques-box i:hover {
+  font-size: 1.6rem;
+  color: var(--primary-color--);
   cursor: pointer;
-  border: 1px solid transparent;
-
 }
 
 .ques-ans-cont p:nth-child(2) {
@@ -396,7 +388,6 @@ footer {
 
 /* Footer End */
 
-
 /* Sections Responsiveness Start */
 
 @media (min-width: 1208px) {
@@ -411,9 +402,8 @@ footer {
   }
 
   .answer.close {
-  height: 70px;
-  
-}
+    height: 70px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -442,9 +432,8 @@ footer {
     padding: 0.5rem 2rem 1.5rem 2rem;
   }
 
-  
   .menu-links ul li a {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
 
   .menu-srch-btn button {
@@ -468,8 +457,6 @@ footer {
   .crossi i {
     font-size: 3rem;
   }
-
-  
 }
 
 @media (max-width: 1024px) and (max-height: 600px) {
@@ -486,7 +473,7 @@ footer {
   }
 
   .menu-links ul li a {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .menu-srch-btn button {
@@ -538,9 +525,8 @@ footer {
     padding: 0.5rem 2rem 0.5rem 2rem;
   }
 
-
   .menu-links ul li a {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 
   .menu-srch-inp {
@@ -557,8 +543,6 @@ footer {
   .ques-box i {
     padding-left: 0.5rem;
   }
-
-  
 }
 
 @media (max-width: 769px) {
@@ -577,9 +561,8 @@ footer {
     padding: 0.5rem 2rem 0rem 2rem;
   }
 
-
   .menu-links ul li a {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 
   .menu-srch-btn button,
@@ -588,7 +571,6 @@ footer {
     padding: 1.1rem;
   }
 
-  
   footer {
     height: auto;
     padding: 1rem 0.5rem;
@@ -649,9 +631,8 @@ footer {
     padding: 0.5rem 2rem 0rem 1.4rem;
   }
 
-
   .menu-links ul li a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .menu-srch-btn button {
@@ -678,16 +659,15 @@ footer {
     padding: 4rem 0rem;
   }
 
-  
   .ques-ans-cont p:nth-child(2) {
-  display: block;
-  font-family: var(--font-two--);
-  font-size: 0.8rem;
-}
+    display: block;
+    font-family: var(--font-two--);
+    font-size: 0.8rem;
+  }
 
-.ques-ans-cont p:nth-child(3) {
-  display: none;
-}
+  .ques-ans-cont p:nth-child(3) {
+    display: none;
+  }
 
   .ques-box {
     font-size: 1rem;
@@ -701,7 +681,6 @@ footer {
   .answer.close {
     height: 80px;
   }
-
 }
 
 @media (max-width: 438px) {
@@ -726,7 +705,7 @@ footer {
   }
 
   .menu-links ul li a {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   .logo h1 a,
@@ -748,19 +727,15 @@ footer {
     font-size: 1.3rem;
   }
 
-  
-  
   .ques-ans-cont p:nth-child(2) {
-  display: none;
-}
+    display: none;
+  }
 
-.ques-ans-cont p:nth-child(3) {
-  display: block;
-  font-family: var(--font-two--);
-  font-size: 0.9rem;
-}
-
-  
+  .ques-ans-cont p:nth-child(3) {
+    display: block;
+    font-family: var(--font-two--);
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 395px) {
@@ -781,16 +756,12 @@ footer {
   .menu-links {
     padding: 0.5rem 2rem 0.5rem 1rem;
   }
-
-  
-
 }
 
 @media (max-width: 376px) {
   .menu-cont-parent {
     height: 70vh;
   }
-
 
   .menu-links ul li a {
     font-size: 1rem;
@@ -819,8 +790,6 @@ footer {
   .crossi i {
     font-size: 1.5rem;
   }
-
-  
 }
 
 @media screen and (width: 360px) and (height: 740px) {
@@ -838,7 +807,6 @@ footer {
   .menu-div {
     width: 90%;
   }
-
 
   .menu-links ul li a {
     font-size: 1.3rem;
@@ -864,9 +832,8 @@ footer {
     height: 68vh;
   }
 
-
   .menu-links ul li a {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .menu-srch-btn button,
@@ -898,7 +865,7 @@ footer {
   }
 
   .menu-links ul li a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .menu-srch-inp {
