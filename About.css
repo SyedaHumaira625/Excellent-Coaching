@@ -251,20 +251,20 @@ nav ul li a:hover {
 .About-content {
   display: flex;
   padding: 2rem 4rem;
-  height: 23rem;
+  height: 25rem;
 }
 
 .about-para {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 87%;
   width: 50%;
   justify-content: space-evenly;
-  padding: 0.5rem 0rem 0.5rem 3rem;
+  padding: 2rem 0rem 0.5rem 3rem;
 }
 
 .about-para2 {
-  padding: 0.5rem 3rem 0.5rem 0rem;
+  padding: 2rem 3rem 0.5rem 0rem;
 }
 
 .about-para p:nth-child(3) {
@@ -290,11 +290,11 @@ nav ul li a:hover {
 
 .about-para p {
   font-family: var(--font-two--);
-  line-height: 1.5rem;
+  line-height: 1.3rem;
 }
 
 .about-img {
-  height: 100%;
+  height: 23rem;
   width: 50%;
 }
 
@@ -447,11 +447,13 @@ footer {
   nav ul li a {
     font-size: 1.2rem;
   }
-}
 
-@media (min-width: 1208px) {
-  nav ul li a {
-    font-size: 1.2rem;
+  .About-content {
+    height: 35rem;
+  }
+
+  .about-para {
+    height: 65%;
   }
 }
 
@@ -587,6 +589,14 @@ footer {
   .menu-srch-btn button {
     font-size: 1.8rem;
     padding: 1rem;
+  }
+
+  .about-para {
+    height: 100%;
+  }
+
+  .about-para2 {
+    padding-top: 1rem;
   }
 
   .about-para p {
@@ -734,7 +744,7 @@ footer {
   .about-para {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 90%;
     width: 100%;
     justify-content: space-evenly;
     padding: 0;
@@ -813,6 +823,15 @@ footer {
 
   .menu-srch-btn button {
     font-size: 1.3rem;
+  }
+
+  .about-para {
+    height: 60%;
+    padding-top: 0.5rem;
+  }
+
+  .about-para2 {
+    padding-top: 0;
   }
 
   .contact-form {

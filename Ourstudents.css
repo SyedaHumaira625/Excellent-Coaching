@@ -386,12 +386,6 @@ footer {
   }
 }
 
-@media (min-width: 1208px) {
-  nav ul li a {
-    font-size: 1.2rem;
-  }
-}
-
 @media (max-width: 1100) {
   .Our-students h1 {
     margin-bottom: 1.2rem;
