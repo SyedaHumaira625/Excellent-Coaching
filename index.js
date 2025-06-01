@@ -17,3 +17,4 @@ let loader = document.querySelector(".loader");
 lasth1.addEventListener("animationend", function () {
   loader.classList.add("hide");
 });
+

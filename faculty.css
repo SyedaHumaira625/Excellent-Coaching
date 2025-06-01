@@ -175,7 +175,7 @@ nav ul li a:hover {
 
 .menu-links {
   height: 80%;
-  padding: 0.5rem 2rem 5rem 2rem;
+  padding: 0rem 2rem 5rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -185,13 +185,14 @@ nav ul li a:hover {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  justify-content: space-evenly;
+  height: 82%;
 }
 
 .menu-links ul li a {
   text-decoration: none;
   color: var(--secondary-color--);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-family: var(--font-one--);
   font-weight: 450;
   border: 2px solid transparent;
@@ -428,9 +429,7 @@ footer {
     padding: 0.5rem 2rem 1.5rem 2rem;
   }
 
-  .menu-links ul {
-    gap: 3rem;
-  }
+  
 
   .menu-links ul li a {
     font-size: 2.3rem;
@@ -470,10 +469,6 @@ footer {
 
   .menu-links {
     padding: 0.5rem 2rem 0rem 2rem;
-  }
-
-  .menu-links ul {
-    gap: 1.8rem;
   }
 
   .menu-links ul li a {
@@ -529,9 +524,6 @@ footer {
     padding: 0.5rem 2rem 0.5rem 2rem;
   }
 
-  .menu-links ul {
-    gap: 3.2rem;
-  }
 
   .menu-links ul li a {
     font-size: 2rem;
@@ -563,10 +555,6 @@ footer {
 
   .menu-links {
     padding: 0.5rem 2rem 0rem 2rem;
-  }
-
-  .menu-links ul {
-    gap: 3rem;
   }
 
   .menu-links ul li a {
@@ -659,10 +647,6 @@ footer {
     padding: 0.5rem 2rem 0rem 1.4rem;
   }
 
-  .menu-links ul {
-    gap: 1.7rem;
-  }
-
   .menu-links ul li a {
     font-size: 1.3rem;
   }
@@ -702,10 +686,6 @@ footer {
 
   .menu-links ul li a {
     font-size: 1.4rem;
-  }
-
-  .menu-links ul {
-    gap: 2.1rem;
   }
 
   .logo h1 a,
@@ -768,10 +748,6 @@ footer {
   .menu-links {
     padding: 0.5rem 2rem 0.5rem 1rem;
   }
-
-  .menu-links ul {
-    gap: 1.9rem;
-  }
 }
 
 @media (max-width: 376px) {
@@ -779,9 +755,6 @@ footer {
     height: 70vh;
   }
 
-  .menu-links ul {
-    gap: 1.3rem;
-  }
 
   .menu-links ul li a {
     font-size: 1.1rem;
@@ -828,9 +801,7 @@ footer {
     width: 90%;
   }
 
-  .menu-links ul {
-    gap: 1.4rem;
-  }
+
 
   .menu-links ul li a {
     font-size: 1.3rem;
@@ -856,9 +827,6 @@ footer {
     height: 68vh;
   }
 
-  .menu-links ul {
-    gap: 1.1rem;
-  }
 
   .menu-links ul li a {
     font-size: 1.1rem;
@@ -892,9 +860,6 @@ footer {
     padding: 0.5rem 2rem 1.5rem 1rem;
   }
 
-  .menu-links ul {
-    gap: 1.8rem;
-  }
 
   .menu-links ul li a {
     font-size: 1.4rem;

@@ -164,7 +164,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .crossi i {
@@ -178,7 +178,7 @@ nav ul li a:hover {
   padding: 0rem 2rem 5rem 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .menu-links ul {
@@ -186,7 +186,9 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 82%;
+  padding-top: 0rem;
+  height: 80%;
+
 }
 
 .menu-links ul li a {
@@ -217,7 +219,6 @@ nav ul li a:hover {
   font-size: 1rem;
   outline: none;
   border: none;
-  border-left: 1px solid var(--primary-color--);
 }
 
 .menu-srch-inp {
@@ -231,148 +232,82 @@ nav ul li a:hover {
 
 /* Header End */
 
-/* Courses Section Start */
-.Courses {
-  display: grid;
-  padding: 0rem 4rem 3rem 4rem;
-  background-color: var(--secondary-color--);
+
+/* Faq Section Start */
+
+.faq-sect {
+  padding: 2rem 3rem;
 }
 
-.Courses h1 {
-  font-size: 4.1rem;
+.faq-sect h1 {
+  font-family: var(--font-one--);
+  font-size: 2.5rem;
   font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.3rem;
+  padding: 4rem 6rem;
+}
+
+.ques-ans-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-bottom: 1px solid rgb(210, 198, 198);
+  width: 100%;
+}
+
+.ques-box {
   font-family: var(--font-one--);
+  font-size: 1.3rem;
   color: var(--tertiary-color--);
-  padding-top: 2rem;
-}
-
-.coursesh1 h1 {
-  font-size: 3.5rem;
-  padding-top: 0.1rem;
-  font-family: var(--font-one--);
-  color: var(--tertiary-color--);
-}
-
-.coursessect {
-  display: grid;
-  justify-items: center;
-  padding: 2.5rem 0;
-  gap: 1.9rem;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.cards {
-  height: 30rem;
-  width: 20vw;
-  box-shadow: 2px 2px 20px 4px rgb(0, 0, 0, 0.3);
-  color: var(--tertiary-color--);
-}
-
-.card-img {
-  height: 47%;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   position: relative;
 }
 
-.card-img::before {
-  content: "";
-  height: 100%;
+.ques-box i {
+    font-size: 1.6rem;
+    color: var(--primary-color--);
+    border: 2px solid transparent;
+}
+
+.ques-box i:hover {
+  cursor: pointer;
+  border: 1px solid transparent;
+
+}
+
+.ques-ans-cont p:nth-child(2) {
+  font-family: var(--font-two--);
   width: 100%;
-  background-color: rgb(0, 0, 0, 0.5);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.card-img img {
-  object-position: center;
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-.card-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 1rem 1rem 0.7rem 1rem;
-  height: 53%;
-}
-
-.icon-cont {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.icon-cont i {
-  padding-right: 0.3rem;
-  font-size: 0.8rem;
-  color: var(--primary-color--);
-}
-
-.icon-cont p {
-  font-size: 0.8rem;
-  font-family: var(--font-one--);
-}
-
-.card-info h2 {
-  font-family: var(--font-one--);
+  background-color: var(--secondary-color--);
   color: var(--tertiary-color--);
 }
 
-.card-info :nth-child(3) {
-  font-family: var(--font-one--);
-  font-size: 0.9rem;
-  border: none;
-  border-bottom: 1px solid var(--tertiary-color--);
-  padding-bottom: 0.4rem;
+.ques-ans-cont p:nth-child(3) {
+  display: none;
 }
 
-.card-info span {
-  font-family: var(--font-two--);
-  font-size: 0.7rem;
-  padding-top: 0.4rem;
+.answer {
+  height: 0px;
+  opacity: 0;
+  transition: all 0.5s ease;
 }
 
-.card-info span p {
-  font-family: var(--font-one--);
-  font-size: 1rem;
-  font-weight: bold;
-  color: var(--primary-color--);
+.answer.close {
+  height: 100px;
+  transition: all 0.5s ease;
+  opacity: 1;
 }
 
-.cardinfo-last {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.cardinfo-last button {
-  width: 74%;
-  font-family: var(--font-two--);
-  font-size: 0.8rem;
-  background-color: var(--primary-color--);
-  color: var(--third-color--);
-  font-weight: bold;
-  border: none;
-  padding: 0.4rem 0.7rem;
-  outline: none;
-  transition: all 0.4s ease-in;
-}
-
-.cardinfo-last button:hover {
-  cursor: pointer;
-}
-
-.cardinfo-last i {
-  font-size: 1.5rem;
-}
-
-.cardinfo-last i:hover {
-  color: var(--primary-color--);
-}
-/* Courses Section End */
+/* Faq Section End */
 
 /* Footer Start */
 
@@ -385,6 +320,7 @@ footer {
   line-height: 1.8;
   font-family: var(--font-two--);
 }
+
 .container {
   width: 100%;
   flex-wrap: wrap;
@@ -460,88 +396,24 @@ footer {
 
 /* Footer End */
 
+
 /* Sections Responsiveness Start */
 
 @media (min-width: 1208px) {
   nav ul li a {
     font-size: 1.2rem;
   }
+}
 
-  .card-info {
-    display: flex;
-    flex-direction: column;
+@media (min-width: 1208px) {
+  nav ul li a {
+    font-size: 1.2rem;
   }
 
-  .icon-cont {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .icon-cont i,
-  .icon-cont p {
-    padding-right: 0.3rem;
-    font-size: 1.1rem;
-  }
-
-  .card-info h2 {
-    font-family: var(--font-one--);
-    font-size: 1.7rem;
-    color: var(--tertiary-color--);
-  }
-
-  .card-info :nth-child(3) {
-    font-family: var(--font-one--);
-    font-size: 1.1rem;
-    border: none;
-    border-bottom: 1px solid var(--tertiary-color--);
-    padding-bottom: 0.4rem;
-  }
-
-  .card-info span {
-    font-family: var(--font-two--);
-    font-size: 1rem;
-    padding-top: 0.4rem;
-  }
-
-  .card-info span p {
-    font-family: var(--font-one--);
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--primary-color--);
-  }
-
-  .cardinfo-last {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .cardinfo-last button {
-    width: 74%;
-    font-family: var(--font-two--);
-    font-size: 1.1rem;
-    background-color: var(--primary-color--);
-    color: var(--third-color--);
-    font-weight: bold;
-    border: none;
-    padding: 0.5rem 0.7rem;
-    outline: none;
-    transition: all 0.4s ease-in;
-  }
-
-  .cardinfo-last button:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-  }
-
-  .cardinfo-last i {
-    font-size: 2rem;
-  }
-
-  .cardinfo-last i:hover {
-    color: var(--primary-color--);
-  }
+  .answer.close {
+  height: 70px;
+  
+}
 }
 
 @media (max-width: 1024px) {
@@ -597,50 +469,7 @@ footer {
     font-size: 3rem;
   }
 
-  .coursessect {
-    grid-template-columns: 1fr;
-    gap: 3rem;
-  }
-
-  .cards {
-    height: 60rem;
-    width: 70vw;
-  }
-
-  .icon-cont i {
-    padding-right: 0.3rem;
-    font-size: 2.1rem;
-  }
-
-  .icon-cont p {
-    font-size: 2.1rem;
-  }
-
-  .card-info h2 {
-    font-size: 4.2rem;
-  }
-
-  .card-info :nth-child(3) {
-    font-size: 2.7rem;
-  }
-
-  .card-info span {
-    font-size: 1.7rem;
-  }
-
-  .card-info span p {
-    font-size: 3rem;
-  }
-
-  .cardinfo-last button {
-    width: 74%;
-    font-size: 2.3rem;
-    padding: 1rem;
-  }
-
-  .cardinfo-last i {
-    font-size: 4rem;
-  }
+  
 }
 
 @media (max-width: 1024px) and (max-height: 600px) {
@@ -656,7 +485,6 @@ footer {
     padding: 0.5rem 2rem 0rem 2rem;
   }
 
-  
   .menu-links ul li a {
     font-size: 1.5rem;
   }
@@ -680,45 +508,6 @@ footer {
   .menu a i,
   .crossi i {
     font-size: 2rem;
-  }
-
-  .coursessect {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .cards {
-    height: 100vh;
-    width: 40vw;
-  }
-
-  .icon-cont i,
-  .icon-cont p {
-    font-size: 1.3rem;
-  }
-
-  .card-info h2 {
-    font-size: 2.5rem;
-  }
-
-  .card-info :nth-child(3) {
-    font-size: 1.5rem;
-  }
-
-  .card-info span {
-    font-size: 1.2rem;
-  }
-
-  .card-info span p {
-    font-size: 2rem;
-  }
-
-  .cardinfo-last button {
-    font-size: 1.5rem;
-    padding: 0.6rem;
-  }
-
-  .cardinfo-last i {
-    font-size: 2.7rem;
   }
 }
 
@@ -749,7 +538,6 @@ footer {
     padding: 0.5rem 2rem 0.5rem 2rem;
   }
 
-  
 
   .menu-links ul li a {
     font-size: 2rem;
@@ -766,50 +554,11 @@ footer {
     padding: 1rem;
   }
 
-  .coursessect {
-    grid-template-columns: 1fr;
-    gap: 4rem;
+  .ques-box i {
+    padding-left: 0.5rem;
   }
 
-  .cards {
-    height: 55rem;
-    width: 70vw;
-  }
-
-  .icon-cont i {
-    padding-right: 0.3rem;
-    font-size: 1.9rem;
-  }
-
-  .icon-cont p {
-    font-size: 1.9rem;
-  }
-
-  .card-info h2 {
-    font-size: 3.9rem;
-  }
-
-  .card-info :nth-child(3) {
-    font-size: 2.2rem;
-  }
-
-  .card-info span {
-    font-size: 1.6rem;
-  }
-
-  .card-info span p {
-    font-size: 2.6rem;
-  }
-
-  .cardinfo-last button {
-    width: 74%;
-    font-size: 2.1rem;
-    padding: 0.7rem;
-  }
-
-  .cardinfo-last i {
-    font-size: 3.5rem;
-  }
+  
 }
 
 @media (max-width: 769px) {
@@ -828,7 +577,7 @@ footer {
     padding: 0.5rem 2rem 0rem 2rem;
   }
 
-  
+
   .menu-links ul li a {
     font-size: 1.8rem;
   }
@@ -839,18 +588,7 @@ footer {
     padding: 1.1rem;
   }
 
-  .cards {
-    height: 80vh;
-  }
-
-  .card-info h2 {
-    font-size: 3.5rem;
-  }
-
-  .card-info :nth-child(3) {
-    font-size: 2.1rem;
-  }
-
+  
   footer {
     height: auto;
     padding: 1rem 0.5rem;
@@ -911,7 +649,6 @@ footer {
     padding: 0.5rem 2rem 0rem 1.4rem;
   }
 
-  
 
   .menu-links ul li a {
     font-size: 1.3rem;
@@ -928,46 +665,43 @@ footer {
     width: 76%;
   }
 
-  .Courses h1 {
-    font-size: 3.9rem;
+  .faq-sect {
+    padding: 2rem;
   }
 
-  .coursesh1 h1 {
-    font-size: 3.4rem;
+  .faq-sect h1 {
+    font-size: 2rem;
+    text-align: center;
   }
 
-  .cards {
-    height: 83vh;
+  .wrapper {
+    padding: 4rem 0rem;
   }
 
-  .icon-cont i,
-  .icon-cont p {
-    font-size: 1.4rem;
+  
+  .ques-ans-cont p:nth-child(2) {
+  display: block;
+  font-family: var(--font-two--);
+  font-size: 0.8rem;
+}
+
+.ques-ans-cont p:nth-child(3) {
+  display: none;
+}
+
+  .ques-box {
+    font-size: 1rem;
   }
 
-  .card-info h2 {
-    font-size: 2.6rem;
+  .ques-box i {
+    font-size: 1.1rem;
+    padding-left: 0.5rem;
   }
 
-  .card-info :nth-child(3) {
-    font-size: 1.6rem;
+  .answer.close {
+    height: 80px;
   }
 
-  .card-info span {
-    font-size: 1.2rem;
-  }
-
-  .card-info span p {
-    font-size: 1.9rem;
-  }
-
-  .cardinfo-last button {
-    font-size: 1.5rem;
-  }
-
-  .cardinfo-last i {
-    font-size: 2.7rem;
-  }
 }
 
 @media (max-width: 438px) {
@@ -1014,55 +748,19 @@ footer {
     font-size: 1.3rem;
   }
 
-  .Courses {
-    padding: 0rem 2rem;
-  }
+  
+  
+  .ques-ans-cont p:nth-child(2) {
+  display: none;
+}
 
-  .Courses h1 {
-    font-size: 3.3rem;
-  }
+.ques-ans-cont p:nth-child(3) {
+  display: block;
+  font-family: var(--font-two--);
+  font-size: 0.9rem;
+}
 
-  .coursesh1 h1 {
-    font-size: 2.9rem;
-  }
-
-  .coursessect {
-    grid-template-columns: 1fr;
-  }
-
-  .cards {
-    width: 78vw;
-    height: 67vh;
-  }
-
-  .icon-cont i,
-  .icon-cont p {
-    font-size: 1.2rem;
-  }
-
-  .card-info h2 {
-    font-size: 2.2rem;
-  }
-
-  .card-info :nth-child(3) {
-    font-size: 1.4rem;
-  }
-
-  .card-info span {
-    font-size: 1.1rem;
-  }
-
-  .card-info span p {
-    font-size: 1.6rem;
-  }
-
-  .cardinfo-last button {
-    font-size: 1.4rem;
-  }
-
-  .cardinfo-last i {
-    font-size: 2rem;
-  }
+  
 }
 
 @media (max-width: 395px) {
@@ -1084,12 +782,8 @@ footer {
     padding: 0.5rem 2rem 0.5rem 1rem;
   }
 
+  
 
-
-  .cards {
-    width: 81vw;
-    height: 70vh;
-  }
 }
 
 @media (max-width: 376px) {
@@ -1099,7 +793,7 @@ footer {
 
 
   .menu-links ul li a {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .menu-srch-inp {
@@ -1126,35 +820,7 @@ footer {
     font-size: 1.5rem;
   }
 
-  .cards {
-    height: 77vh;
-  }
-
-  .icon-cont i,
-  .icon-cont p {
-    font-size: 1.1rem;
-  }
-
-  .card-info h2 {
-    font-size: 2rem;
-  }
-
-  .card-info :nth-child(3) {
-    font-size: 1.3rem;
-  }
-
-  .card-info span {
-    font-size: 0.9rem;
-  }
-
-  .cardinfo-last button {
-    font-size: 1.1rem;
-    padding: 0.6rem;
-  }
-
-  .cardinfo-last i {
-    font-size: 2rem;
-  }
+  
 }
 
 @media screen and (width: 360px) and (height: 740px) {
@@ -1178,11 +844,6 @@ footer {
     font-size: 1.3rem;
   }
 
-  .cards {
-    width: 82vw;
-    height: 70vh;
-  }
-
   .menu-srch-inp {
     width: 57vw;
   }
@@ -1196,21 +857,12 @@ footer {
   .menu-links {
     padding: 0.5rem 2rem 0.8rem 2rem;
   }
-
-  .cards {
-    height: 70vh;
-  }
-
-  .card-info h2 {
-    font-size: 4rem;
-  }
 }
 
 @media screen and (width: 360px) and (height: 640px) {
   .menu-cont-parent {
     height: 68vh;
   }
-
 
 
   .menu-links ul li a {
@@ -1225,22 +877,6 @@ footer {
   .logo h1 a,
   .menu a i {
     font-size: 1.5rem;
-  }
-
-  .card-info h2 {
-    font-size: 1.8rem;
-  }
-
-  .card-info span p {
-    font-size: 1.5rem;
-  }
-
-  .cardinfo-last button {
-    padding: 0.4rem;
-  }
-
-  .cardinfo-last i {
-    font-size: 1.9em;
   }
 }
 
@@ -1261,7 +897,6 @@ footer {
     padding: 0.5rem 2rem 1.5rem 1rem;
   }
 
-
   .menu-links ul li a {
     font-size: 1.4rem;
   }
@@ -1280,54 +915,6 @@ footer {
   .crossi h1 a,
   .crossi i {
     font-size: 1.6rem;
-  }
-
-  .cards {
-    height: 62vh;
-    width: 84vw;
-  }
-
-  .icon-cont i,
-  .icon-cont p {
-    font-size: 1.2rem;
-  }
-
-  .card-info span {
-    font-size: 1.1rem;
-  }
-
-  .card-info span p {
-    font-size: 1.7rem;
-  }
-
-  .cardinfo-last button {
-    font-size: 1.5rem;
-  }
-
-  .cardinfo-last i {
-    font-size: 2.1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .card {
-    max-width: 100%;
-  }
-
-  .card-image {
-    height: 180px;
-  }
-
-  .card-information h1 {
-    font-size: 1.2rem;
-  }
-
-  .card-information h4 {
-    font-size: 0.95rem;
-  }
-
-  .card-information p {
-    font-size: 0.85rem;
   }
 }
 
